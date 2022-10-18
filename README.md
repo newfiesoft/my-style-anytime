@@ -25,7 +25,7 @@ This Lite Version plugin supports all standard [WordPress user roles](https://wo
 - Subscriber custom style view
 - Including Visitor/Guest custom style view style.
 []()
-While this <b>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</b>, we work to integrate other additional independent WordPress plugins user rules such as <b>[WooCommerce](https://wordpress.org/plugins/woocommerce/)</b>, <b>[Loco Translate](https://wordpress.org/plugins/loco-translate/)</b>, <b>[Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), and many others.
+While this <b>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</b>, we work to integrate other additional independent WordPress plugins user rules such as <b>[WooCommerce](https://wordpress.org/plugins/woocommerce/)</b>, <b>[Loco Translate](https://wordpress.org/plugins/loco-translate/)</b>, <b>[Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)</b>, and many others.
 
 ## Be a Community contributions
 We are always welcome and help us to work together, feel free to answer questions on GitHub and within the communities.
