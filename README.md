@@ -2,7 +2,7 @@
 
 **<p align="center">Welcome to the My Style Anytime WordPress PLugin GitHub repository.</p>**
 
-<p><img src="https://ps.w.org/my-style-anytime/assets/screenshot-3.png"></a></p>
+<p><img src="https://ps.w.org/my-style-anytime/assets/screenshot-3.png"></p>
 
 
 ## Description
