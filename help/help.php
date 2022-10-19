@@ -1,5 +1,5 @@
-<div class="el-license-container">
-    <h3 class="el-license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> Information</h3>
+<div class="license-container">
+    <h3 class="license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> Information</h3>
     <hr>
     <p style="padding-top:10px;">Hi,</p>
 
@@ -18,8 +18,8 @@
     Enjoy your job... :)
 </div>
 
-<div class="el-license-container">
-    <h3 class="el-license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> How to edit with
+<div class="license-container">
+    <h3 class="license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> How to edit with
         cPanel</h3>
     <hr>
 
@@ -44,8 +44,8 @@
     <p>Now you can edit your style on the <b>Manage Styles</b> button.</p>
 </div>
 
-<div class="el-license-container">
-    <h3 class="el-license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> How to edit with
+<div class="license-container">
+    <h3 class="license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> How to edit with
         Plesk</h3>
     <hr>
 
@@ -69,8 +69,8 @@
     <p>Now you can edit your style on the <b>Manage Style</b> button.</p>
 </div>
 
-<div class="el-license-container">
-    <h3 class="el-license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> Use Code Editor to
+<div class="license-container">
+    <h3 class="license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> Use Code Editor to
         create or edit files and folders</h3>
     <hr>
 

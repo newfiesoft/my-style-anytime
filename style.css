@@ -1,66 +1,66 @@
 
-.el-license-container {
+.license-container {
     margin: 20px;
     padding: 35px;
     background: #fff;
     border-radius: 4px
 }
 
-.el-license-container .el-license-field {
+.license-container .license-field {
     display: block;
     margin-bottom: 15px
 }
 
-.el-license-container .el-license-field input {
+.license-container .license-field input {
     font-size: 200%;
     padding: 8px 10px 10px
 }
 
-.el-license-container .notice-error, .el-license-container div.error {
+.license-container .notice-error, .license-container div.error {
     background: rgba(220, 50, 50, .11);
     margin: 0
 }
 
-.el-license-container .el-license-title {
+.license-container .license-title {
     margin-top: 0;
     font-size: 30px
 }
 
-.el-license-container .el-license-info li {
+.license-container .license-info li {
     list-style: none;
     padding: 0
 }
 
-.el-license-container .el-license-info-title {
+.license-container .license-info-title {
     width: 150px;
     display: inline-block;
     position: relative;
     padding-right: 5px
 }
 
-.el-license-container .el-license-info-title:after {
+.license-container .license-info-title:after {
     content: ":";
     position: absolute;
     right: 2px
 }
 
-.el-license-container .el-license-valid, .el-license-container .el-license-invalid {
+.license-container .license-valid, .license-container .license-invalid {
     padding: 0 5px 2px;
     color: #fff;
     background-color: #8fcc77;
     border-radius: 3px
 }
 
-.el-license-container .el-license-invalid {
+.license-container .license-invalid {
     background-color: #f44336
 }
 
-.el-license-container .el-license-key {
+.license-container .license-key {
     font-weight: 700;
     opacity: .8
 }
 
-.el-license-container .el-green-btn {
+.license-container .green-btn {
     padding: 0 5px 2px;
     color: #fff;
     background-color: #8fcc77;
@@ -71,12 +71,12 @@
     box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38)
 }
 
-.el-license-container .el-green-btn:hover {
+.license-container .green-btn:hover {
     color: #fff;
     background-color: #84bc6c
 }
 
-.el-license-container .el-blue-btn {
+.license-container .blue-btn {
     padding: 0 5px 2px;
     color: #fff;
     background-color: #20b1d2;
@@ -87,17 +87,17 @@
     box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38)
 }
 
-.el-license-container .el-blue-btn:hover {
+.license-container .blue-btn:hover {
     color: #fff;
     background-color: #219dbf
 }
 
-.el-license-container .el-license-field label {
+.license-container .license-field label {
     display: block;
     margin-bottom: 5px
 }
 
-.el-license-container .el-license-active-btn {
+.license-container .license-active-btn {
     margin-top: 25px
 }
 
@@ -117,5 +117,15 @@
 
 .lite {
     color: blue;
+    font-weight: bold;
+}
+
+.premium {
+    color: #36940f;
+    font-weight: bold;
+}
+
+.help-style {
+    color: #b12222;
     font-weight: bold;
 }

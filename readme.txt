@@ -4,7 +4,7 @@ Donate link: https://newfiesoft.com/donate
 Tags: style, css, custom-css, styles, stylesheet, editor, custom, customizer, admin, admin-style, frontend, frontend-style, backend, backend-style, rules, user, user-rules, user-style
 Requires at least: 4.9.0
 Tested up to: 6.0.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2.9
 Requires PHP:  5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
@@ -48,6 +48,16 @@ While this <strong>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-
 
 Yes, this plugin version is 100% free.
 
+= Can I show / include it in Frontend public/visitor/guest style? =
+
+Yes, of course, in any rules style you can find the next part of the code commented.
+
+/* To import visitor style in this user @Rules type
+@import "visitor-style.css";
+ */
+
+When you enable import visitor-style.css to need to know, you import all that is inside in visitor-style.css
+
 === Screenshots ===
 
 1. Welcome screen
@@ -60,6 +70,14 @@ Yes, this plugin version is 100% free.
 8. Visitor custom style view
 
 === Changelog ===
+
+= 1.0.2.9 =
+# Release Date: 01.10.2022
+[*] Fix bug after update in version 1.0.2
+
+= 1.0.2 =
+# Release Date: 01.10.2022
+[*] We optimized the code and added additional buttons on the Installed Plugins list page itself.
 
 = 1.0.1 =
 # Release Date: 01.09.2022
