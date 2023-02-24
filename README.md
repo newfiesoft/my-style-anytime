@@ -14,7 +14,9 @@ But at the same time as you can customize the front view, ask if you can customi
 
 At the same time, you can do responsive design on the same CSS file rule.
 
-This Lite Version plugin supports all standard [WordPress user roles](https://wordpress.org/support/article/roles-and-capabilities/).
+This <b>Lite Version</b> plugin supports all standard [WordPress user roles](https://wordpress.org/support/article/roles-and-capabilities/).
+
+From version <b>1.0.4</b> we add functionality to disable Gutenberg style anywhere & enable the classic editor. This function helps you to back your WordPress in a classic view, in posts, pages, and widgets.
 
 ## Features
 
@@ -23,10 +25,11 @@ This Lite Version plugin supports all standard [WordPress user roles](https://wo
 - Author custom style view
 - Contributor custom style view
 - Subscriber custom style view
-- Including Visitor/Guest custom style view style.
+- Including Visitor/Guest custom style view style
+- Disable Gutenberg style
 
 
-While this <b>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</b>, we work to integrate other additional independent WordPress plugins user rules such as <b>[WooCommerce](https://wordpress.org/plugins/woocommerce/)</b>, <b>[Loco Translate](https://wordpress.org/plugins/loco-translate/)</b>, <b>[Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)</b>, and many others.
+While this <b>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</b>, we work to integrate other additional independent WordPress plugins user rules such as <b>[WooCommerce](https://wordpress.org/plugins/woocommerce/)</b>, <b>[Loco Translate](https://wordpress.org/plugins/loco-translate/)</b>, <b>[Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)</b>, <b>[YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/)</b>, and many others.
 
 ## Be a Community contributions
 We are always welcome and help us to work together, feel free to answer questions on GitHub and within the communities.
