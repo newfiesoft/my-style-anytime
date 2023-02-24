@@ -14,7 +14,7 @@ But at the same time as you can customize the front view, ask if you can customi
 
 At the same time, you can do responsive design on the same CSS file rule.
 
-This <b>Lite Version</b> plugin supports all standard [WordPress user roles](https://wordpress.org/support/article/roles-and-capabilities/).
+This <b>Lite Version</b> who can download free on the [WordPress plugins market](https://wordpress.org/plugins/my-style-anytime/), plugin supports all standard [WordPress user roles](https://wordpress.org/support/article/roles-and-capabilities/).
 
 From version <b>1.0.4</b> we add functionality to disable Gutenberg style anywhere & enable the classic editor. This function helps you to back your WordPress in a classic view, in posts, pages, and widgets.
 
