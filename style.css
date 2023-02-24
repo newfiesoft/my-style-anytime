@@ -1,4 +1,18 @@
 
+.version {
+    z-index: 99;
+    text-align: right;
+    top: 40px;
+    position: relative;
+    right: 36px;
+}
+
+.power-by-info {
+    right: 30px;
+    position: relative;
+    text-align: right;
+}
+
 .license-container {
     margin: 20px;
     padding: 35px;
