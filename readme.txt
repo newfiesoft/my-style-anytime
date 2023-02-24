@@ -3,8 +3,8 @@ Contributors: NewfieSoft
 Donate link: https://newfiesoft.com/donate
 Tags: style, css, custom-css, styles, stylesheet, editor, custom, customizer, admin, admin-style, frontend, frontend-style, backend, backend-style, rules, user, user-rules, user-style
 Requires at least: 4.9.0
-Tested up to: 6.0.2
-Stable tag: 1.0.2.9
+Tested up to: 6.1
+Stable tag: 1.0.3
 Requires PHP:  5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
@@ -70,6 +70,10 @@ When you enable import visitor-style.css to need to know, you import all that is
 8. Visitor custom style view
 
 === Changelog ===
+
+= 1.0.3 =
+# Release Date: 03.11.2022
+[*] Testing code with WordPress version 6.1
 
 = 1.0.2.9 =
 # Release Date: 01.10.2022

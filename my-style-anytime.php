@@ -7,7 +7,7 @@ Plugin URI: https://newfiesoft.com/wp-plugins/my-style-anytime/
 
 Description: This WordPress plugin helps you to create and customize Front-end <strong>(public view)</strong> and Back-end <strong>(wp-admin)</strong> style views using the user's type of rules. At the same time, you can do responsive design on the same CSS file rule. <strong># Lite Version</strong>
 
-Version: 1.0.2.9
+Version: 1.0.3
 Author: NewfieSoft
 Author URI: https://www.newfiesoft.com
 Donate link: https://newfiesoft.com/donate
