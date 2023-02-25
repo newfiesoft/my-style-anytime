@@ -58,8 +58,8 @@ function mysat_disable_gutenberg() {
 
 
 /***
- This function helps to check the status of DISALLOW_FILE_EDIT is it true or false.
-***/
+This function helps to check the status of DISALLOW_FILE_EDIT is it true or false.
+ ***/
 
 add_action( 'init', 'mysat_disallow_file_edit' );
 
@@ -71,15 +71,27 @@ function mysat_disallow_file_edit() {
 	if (!$disallow_file_edit && preg_match("/define\('DISALLOW_FILE_EDIT',\s*(false|'false')\);/i", $config)) {
 		$config = preg_replace("/define\('DISALLOW_FILE_EDIT',\s*(false|'false')\);/i", "define('DISALLOW_FILE_EDIT', true);", $config);
 		file_put_contents($config_file, $config);
+
+		// Change file permissions to 640
+		chmod($config_file, 0640);
+
 	} elseif ($disallow_file_edit && preg_match("/define\('DISALLOW_FILE_EDIT',\s*(true|'true')\);/i", $config)) {
 		$config = preg_replace("/define\('DISALLOW_FILE_EDIT',\s*(true|'true')\);/i", "define('DISALLOW_FILE_EDIT', false);", $config);
 		file_put_contents($config_file, $config);
+
+		// Change file permissions to 640
+		chmod($config_file, 0640);
+
 	} elseif (!preg_match("/define\('DISALLOW_FILE_EDIT',/i", $config)) {
 		if ($disallow_file_edit) {
 			file_put_contents($config_file, "\n\ndefine('DISALLOW_FILE_EDIT', true);", FILE_APPEND);
+			// Change file permissions to 644
 		} else {
 			file_put_contents($config_file, "\n\ndefine('DISALLOW_FILE_EDIT', false);", FILE_APPEND);
+
 		}
+        // Change file permissions to 640
+		chmod($config_file, 0640);
 	}
 }
 
