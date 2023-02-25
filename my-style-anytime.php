@@ -207,7 +207,14 @@ register_deactivation_hook( __FILE__, 'mysat_deactivate_plugin' );
 
 function mysat_deactivate_plugin() {
 	$config_file = ABSPATH . 'wp-config.php';
-	$config = file_get_contents( $config_file );
+	$config = file_get_contents($config_file);
+
+	$perms = fileperms($config_file) & 0777;
+
+	// Check permission if it is 0640 if not change it to 0640
+    if ($perms !== 0640) {
+		chmod($config_file, 0640);
+	}
 
 	if (preg_match("/define\('DISALLOW_FILE_EDIT',\s*(false|'false')\);/i", $config)) {
 		$config = preg_replace("/define\('DISALLOW_FILE_EDIT',\s*(false|'false')\);/i", "define('DISALLOW_FILE_EDIT', true);", $config);
