@@ -52,7 +52,7 @@ msgstr ""
 
 #: my-style-anytime.php:79
 #: my-style-anytime.php:154
-#: includes/mysat-functions.php:103
+#: includes/mysat-functions.php:115
 #: pages/mysat-help.php:25
 msgid "Settings"
 msgstr ""
@@ -112,19 +112,19 @@ msgid "Enjoy your work"
 msgstr ""
 
 #: my-style-anytime.php:128
-#: includes/mysat-functions.php:114
+#: includes/mysat-functions.php:126
 #: pages/mysat-help.php:135
 msgid "Premium Tools for WordPress made by"
 msgstr ""
 
 #: my-style-anytime.php:129
-#: includes/mysat-functions.php:115
+#: includes/mysat-functions.php:127
 #: pages/mysat-help.php:136
 msgid "with"
 msgstr ""
 
 #: my-style-anytime.php:130
-#: includes/mysat-functions.php:116
+#: includes/mysat-functions.php:128
 #: pages/mysat-help.php:137
 msgid "in Zürich, Switzerland"
 msgstr ""
@@ -153,7 +153,7 @@ msgstr ""
 msgid "Allow File Code Editor"
 msgstr ""
 
-#: includes/mysat-functions.php:109
+#: includes/mysat-functions.php:121
 msgid "Save"
 msgstr ""
 
