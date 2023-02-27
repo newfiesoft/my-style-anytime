@@ -211,9 +211,9 @@ function mysat_deactivate_plugin() {
 
 	$perms = fileperms($config_file) & 0777;
 
-	// Check permission if it is 0640 if not change it to 0640
-    if ($perms !== 0640) {
-		chmod($config_file, 0640);
+	// Check permission if it is 0600 if not change it to 0600
+    if ($perms !== 0600) {
+		chmod($config_file, 0600);
 	}
 
 	if (preg_match("/define\('DISALLOW_FILE_EDIT',\s*(false|'false')\);/i", $config)) {
