@@ -1,8 +1,8 @@
 <?php
 
 /***
- This is part of configuration
-***/
+This is part of configuration
+ ***/
 
 add_action( 'admin_init', 'mysat_settings_page' );
 
@@ -24,7 +24,7 @@ function mysat_settings_page() {
 
 	add_settings_field(
 		'mysat_disallow_file_edit',
-        __('Allow File Code Editor', 'my-style-anytime'),
+		__('Allow File Code Editor', 'my-style-anytime'),
 		'mysat_disallow_file_edit_callback',
 		'mysat_settings_page',
 		'mysat_settings_section'
@@ -36,9 +36,9 @@ function mysat_settings_page() {
 
 
 /***
- This function Disable Gutenberg style anywhere & Enable classic editor. Help you to back your WordPress in view
- mode in post, pages, widgets.
-***/
+This function Disable Gutenberg style anywhere & Enable classic editor. Help you to back your WordPress in view
+mode in post, pages, widgets.
+ ***/
 
 add_action( 'init', 'mysat_disable_gutenberg' );
 
@@ -72,15 +72,15 @@ function mysat_disallow_file_edit() {
 		$config = preg_replace("/define\('DISALLOW_FILE_EDIT',\s*(false|'false')\);/i", "define('DISALLOW_FILE_EDIT', true);", $config);
 		file_put_contents($config_file, $config);
 
-		// Change file permissions to 640
-		chmod($config_file, 0640);
+		// Change file permissions to 600
+		chmod($config_file, 0600);
 
 	} elseif ($disallow_file_edit && preg_match("/define\('DISALLOW_FILE_EDIT',\s*(true|'true')\);/i", $config)) {
 		$config = preg_replace("/define\('DISALLOW_FILE_EDIT',\s*(true|'true')\);/i", "define('DISALLOW_FILE_EDIT', false);", $config);
 		file_put_contents($config_file, $config);
 
-		// Change file permissions to 640
-		chmod($config_file, 0640);
+		// Change file permissions to 600
+		chmod($config_file, 0600);
 
 	} elseif (!preg_match("/define\('DISALLOW_FILE_EDIT',/i", $config)) {
 		if ($disallow_file_edit) {
@@ -90,8 +90,8 @@ function mysat_disallow_file_edit() {
 			file_put_contents($config_file, "\n\ndefine('DISALLOW_FILE_EDIT', false);", FILE_APPEND);
 
 		}
-        // Change file permissions to 640
-		chmod($config_file, 0640);
+		// Change file permissions to 600
+		chmod($config_file, 0600);
 	}
 }
 
