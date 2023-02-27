@@ -85,7 +85,7 @@ function mysat_disallow_file_edit() {
 	} elseif (!preg_match("/define\('DISALLOW_FILE_EDIT',/i", $config)) {
 		if ($disallow_file_edit) {
 			file_put_contents($config_file, "\n\ndefine('DISALLOW_FILE_EDIT', true);", FILE_APPEND);
-			// Change file permissions to 644
+			
 		} else {
 			file_put_contents($config_file, "\n\ndefine('DISALLOW_FILE_EDIT', false);", FILE_APPEND);
 
