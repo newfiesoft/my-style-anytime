@@ -27,6 +27,8 @@ From version <b>1.0.4</b> we add functionality to disable Gutenberg style anywhe
 - Subscriber custom style view
 - Including Visitor/Guest custom style view style
 - Disable Gutenberg style
+- Disable the meta generator.
+- Remove "WordPress" from the title on any case scenario and on all available Site Language inside WordPress settings.
 
 
 While this <b>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</b>, we work to integrate other additional independent WordPress plugins user rules such as <b>[WooCommerce](https://wordpress.org/plugins/woocommerce/)</b>, <b>[Loco Translate](https://wordpress.org/plugins/loco-translate/)</b>, <b>[Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)</b>, <b>[YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/)</b>, and many others.
