@@ -6,6 +6,7 @@
  * =
  ****/
 
+
 /* ############### Standard Wordpress Users type roles ############### */
 
 
@@ -21,7 +22,7 @@ function mysat_get_administrator_back()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('admin-styles', plugin_dir_url(__FILE__) . '../styles/administrator-style.css');
+            wp_enqueue_style('admin-msyt-styles', plugin_dir_url(__FILE__) . '../styles/administrator-style.css');
 
         }
     }
@@ -38,7 +39,7 @@ function mysat_get_administrator_front()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('admin-styles', plugin_dir_url(__FILE__) . '../styles/administrator-style.css');
+            wp_enqueue_style('admin-msyt-styles', plugin_dir_url(__FILE__) . '../styles/administrator-style.css');
 
         }
     }
@@ -60,7 +61,7 @@ function mysat_get_editor_back()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('editor-styles', plugin_dir_url(__FILE__) . '../styles/editor-style.css');
+            wp_enqueue_style('editor-msyt-styles', plugin_dir_url(__FILE__) . '../styles/editor-style.css');
 
         }
     }
@@ -77,7 +78,7 @@ function mysat_get_editor_front()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('editor-styles', plugin_dir_url(__FILE__) . '../styles/editor-style.css');
+            wp_enqueue_style('editor-msyt-styles', plugin_dir_url(__FILE__) . '../styles/editor-style.css');
 
         }
     }
@@ -98,7 +99,7 @@ function mysat_get_author_back()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('author-styles', plugin_dir_url(__FILE__) . '../styles/author-style.css');
+            wp_enqueue_style('author-msyt-styles', plugin_dir_url(__FILE__) . '../styles/author-style.css');
 
         }
     }
@@ -115,7 +116,7 @@ function mysat_get_author_front()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('author-styles', plugin_dir_url(__FILE__) . '../styles/author-style.css');
+            wp_enqueue_style('author-msyt-styles', plugin_dir_url(__FILE__) . '../styles/author-style.css');
 
         }
     }
@@ -136,7 +137,7 @@ function mysat_get_contributor_back()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('contributor-styles', plugin_dir_url(__FILE__) . '../styles/contributor-style.css');
+            wp_enqueue_style('contributor-msyt-styles', plugin_dir_url(__FILE__) . '../styles/contributor-style.css');
 
         }
     }
@@ -153,7 +154,7 @@ function mysat_get_contributor_front()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('contributor-styles', plugin_dir_url(__FILE__) . '../styles/contributor-style.css');
+            wp_enqueue_style('contributor-msyt-styles', plugin_dir_url(__FILE__) . '../styles/contributor-style.css');
 
         }
     }
@@ -174,7 +175,7 @@ function mysat_get_subscriber_back()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('subscriber-styles', plugin_dir_url(__FILE__) . '../styles/subscriber-style.css');
+            wp_enqueue_style('subscriber-msyt-styles', plugin_dir_url(__FILE__) . '../styles/subscriber-style.css');
 
         }
     }
@@ -191,7 +192,7 @@ function mysat_get_subscriber_front()
 
         if (in_array($role, wp_get_current_user()->roles, true)) {
 
-            wp_enqueue_style('subscriber-styles', plugin_dir_url(__FILE__) . '../styles/subscriber-style.css');
+            wp_enqueue_style('subscriber-msyt-styles', plugin_dir_url(__FILE__) . '../styles/subscriber-style.css');
 
         }
     }
@@ -212,7 +213,7 @@ function mysat_get_visitor_style()
 
     if (0 === $current_user->ID) {
 
-        wp_enqueue_style('visitor-styles', plugin_dir_url(__FILE__) . '../styles/visitor-style.css');
+        wp_enqueue_style('visitor-msyt-styles', plugin_dir_url(__FILE__) . '../styles/visitor-style.css');
 
     }
 

@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Loco-Version: 2.6.2; wp-6.2.1\n"
 "X-Domain: my-style-anytime"
 
 #. URI of the plugin
@@ -35,394 +35,434 @@ msgstr ""
 msgid "This WordPress plugin helps you to create and customize Front-end <strong>(public view)</strong> and Back-end <strong>(wp-admin)</strong> style views using the user's type of rules. At the same time, you can do responsive design on the same CSS file rule. <strong>#Lite Version</strong> Now you can <strong>Disable Gutenberg style</strong> anywhere & Enable the classic editor. This function helps you to back your WordPress in a classic view in posts, pages, widgets"
 msgstr ""
 
-#: my-style-anytime.php:51
+#: my-style-anytime.php:54
 msgid "My Style Anytime"
 msgstr ""
 
-#: my-style-anytime.php:61
+#: my-style-anytime.php:64
+#: my-style-anytime.php:132
 msgid "General"
 msgstr ""
 
-#: my-style-anytime.php:70
-#: pages/mysat-help.php:7
-#: pages/mysat-help.php:68
-#: pages/mysat-help.php:105
+#: my-style-anytime.php:73
+#: includes/mysat-help.php:27
+#: includes/mysat-help.php:88
+#: includes/mysat-help.php:125
 msgid "Manage Style"
 msgstr ""
 
-#: my-style-anytime.php:79
-#: my-style-anytime.php:154
-#: includes/mysat-functions.php:115
-#: pages/mysat-help.php:25
+#: my-style-anytime.php:82
+#: includes/mysat-custom.php:93
+msgid "Customization"
+msgstr ""
+
+#: my-style-anytime.php:91
+#: includes/mysat-security.php:58
+msgid "Security"
+msgstr ""
+
+#: my-style-anytime.php:100
+#: includes/mysat-settings.php:119
+#: includes/mysat-help.php:45
 msgid "Settings"
 msgstr ""
 
-#: my-style-anytime.php:88
+#: my-style-anytime.php:109
 msgid "Help"
 msgstr ""
 
-#: my-style-anytime.php:107
-msgid "Version: "
-msgstr ""
-
-#: my-style-anytime.php:112
-msgid "Welcome"
-msgstr ""
-
-#: my-style-anytime.php:114
-#: pages/mysat-help.php:4
-msgid "Hi,"
-msgstr ""
-
-#: my-style-anytime.php:115
-msgid "We are honored that you decided to use our plugin."
-msgstr ""
-
-#: my-style-anytime.php:116
-msgid "This is"
-msgstr ""
-
-#: my-style-anytime.php:117
-msgid "Lite Version,"
-msgstr ""
-
-#: my-style-anytime.php:118
-msgid "and you have full WordPress default user rules support."
-msgstr ""
-
-#: my-style-anytime.php:119
-msgid "If you like this plugin and you need other plugins user roles in plugins like as is WooCommerce or others who have user roles"
-msgstr ""
-
-#: my-style-anytime.php:121
-msgid "Visit our site for a premium offer"
-msgstr ""
-
-#: my-style-anytime.php:122
-msgid "here"
-msgstr ""
-
-#: my-style-anytime.php:123
-msgid ", for a single or multi-site with one single license key"
-msgstr ""
-
-#: my-style-anytime.php:125
-#: pages/mysat-help.php:28
-msgid "Enjoy your work"
-msgstr ""
-
-#: my-style-anytime.php:128
-#: includes/mysat-functions.php:126
-#: pages/mysat-help.php:135
-msgid "Premium Tools for WordPress made by"
-msgstr ""
-
-#: my-style-anytime.php:129
-#: includes/mysat-functions.php:127
-#: pages/mysat-help.php:136
-msgid "with"
-msgstr ""
-
-#: my-style-anytime.php:130
-#: includes/mysat-functions.php:128
-#: pages/mysat-help.php:137
-msgid "in Zürich, Switzerland"
-msgstr ""
-
-#: my-style-anytime.php:155
+#: my-style-anytime.php:133
 msgid "Get Premium"
 msgstr ""
 
-#: my-style-anytime.php:190
+#: my-style-anytime.php:163
 msgid "Community Support"
 msgstr ""
 
-#: my-style-anytime.php:191
+#: my-style-anytime.php:164
 msgid "FAQ"
 msgstr ""
 
-#: my-style-anytime.php:192
+#: my-style-anytime.php:165
 msgid "Ratings"
 msgstr ""
 
-#: includes/mysat-functions.php:19
+#: includes/mysat-general.php:27
+msgid "Version: "
+msgstr ""
+
+#: includes/mysat-general.php:31
+msgid "Welcome"
+msgstr ""
+
+#: includes/mysat-general.php:33
+#: includes/mysat-help.php:24
+msgid "Hi,"
+msgstr ""
+
+#: includes/mysat-general.php:34
+msgid "We are honored that you decided to use our plugin."
+msgstr ""
+
+#: includes/mysat-general.php:35
+msgid "This is"
+msgstr ""
+
+#: includes/mysat-general.php:36
+msgid "Lite Version,"
+msgstr ""
+
+#: includes/mysat-general.php:37
+msgid "and you have full WordPress default user rules support."
+msgstr ""
+
+#: includes/mysat-general.php:38
+msgid "If you like this plugin and you need other plugins user roles in plugins like as is WooCommerce or others who have user roles"
+msgstr ""
+
+#: includes/mysat-general.php:40
+msgid "Visit our site for a premium offer"
+msgstr ""
+
+#: includes/mysat-general.php:41
+msgid "here"
+msgstr ""
+
+#: includes/mysat-general.php:42
+msgid ", for a single or multi-site with one single license key"
+msgstr ""
+
+#: includes/mysat-general.php:44
+#: includes/mysat-help.php:48
+msgid "Enjoy your work"
+msgstr ""
+
+#: includes/mysat-general.php:47
+#: includes/mysat-custom.php:104
+#: includes/mysat-security.php:69
+#: includes/mysat-settings.php:130
+#: includes/mysat-help.php:154
+msgid "Premium Tools for WordPress made by"
+msgstr ""
+
+#: includes/mysat-general.php:48
+#: includes/mysat-custom.php:105
+#: includes/mysat-security.php:70
+#: includes/mysat-settings.php:131
+#: includes/mysat-help.php:155
+msgid "with"
+msgstr ""
+
+#: includes/mysat-general.php:49
+#: includes/mysat-custom.php:106
+#: includes/mysat-security.php:71
+#: includes/mysat-settings.php:132
+#: includes/mysat-help.php:156
+msgid "in Zürich, Switzerland"
+msgstr ""
+
+#: includes/mysat-custom.php:82
+msgid "Remove WordPress from title"
+msgstr ""
+
+#: includes/mysat-custom.php:84
+msgid "From the website title displayed in a browser tab and dashboard, and wp-login.php for enhanced branding and security."
+msgstr ""
+
+#: includes/mysat-security.php:48
+msgid "Remove meta generator"
+msgstr ""
+
+#: includes/mysat-security.php:50
+msgid "Removing the meta generator, helps you to hide the version of WordPress that you are using from potential attackers."
+msgstr ""
+
+#: includes/mysat-settings.php:59
 msgid "Disable Gutenberg Editor"
 msgstr ""
 
-#: includes/mysat-functions.php:27
+#: includes/mysat-settings.php:61
+msgid "With this, you Disable Gutenberg on your site and back to the classic editor, not meather where you are."
+msgstr ""
+
+#: includes/mysat-settings.php:108
 msgid "Allow File Code Editor"
 msgstr ""
 
-#: includes/mysat-functions.php:121
+#: includes/mysat-settings.php:110
+msgid "This allows you can working with style here end enable file editing in WordPress Dashboard."
+msgstr ""
+
+#: includes/mysat-custom.php:99
+#: includes/mysat-security.php:60
+#: includes/mysat-settings.php:125
 msgid "Save"
 msgstr ""
 
-#: pages/mysat-help.php:2
+
+
+#: includes/mysat-help.php:22
 msgid "Information"
 msgstr ""
 
-#: pages/mysat-help.php:6
+#: includes/mysat-help.php:26
 msgid "When you click on the"
 msgstr ""
 
-#: pages/mysat-help.php:8
+#: includes/mysat-help.php:28
 msgid "you get a message"
 msgstr ""
 
-#: pages/mysat-help.php:9
+#: includes/mysat-help.php:29
 msgid "Sorry, you are not allowed to access this page"
 msgstr ""
 
-#: pages/mysat-help.php:11
+#: includes/mysat-help.php:31
 msgid "Function"
 msgstr ""
 
-#: pages/mysat-help.php:12
+#: includes/mysat-help.php:32
 msgid "in"
 msgstr ""
 
-#: pages/mysat-help.php:13
+#: includes/mysat-help.php:33
 msgid "is enabled to have the status"
 msgstr ""
 
-#: pages/mysat-help.php:15
+#: includes/mysat-help.php:35
 msgid "You need to edit"
 msgstr ""
 
-#: pages/mysat-help.php:16
+#: includes/mysat-help.php:36
 msgid "and change"
 msgstr ""
 
-#: pages/mysat-help.php:17
-#: pages/mysat-help.php:59
-#: pages/mysat-help.php:98
+#: includes/mysat-help.php:37
+#: includes/mysat-help.php:79
+#: includes/mysat-help.php:118
 msgid "to"
 msgstr ""
 
-#: pages/mysat-help.php:19
+#: includes/mysat-help.php:39
 msgid "After finish your work with"
 msgstr ""
 
-#: pages/mysat-help.php:20
+#: includes/mysat-help.php:40
 msgid "Me"
 msgstr ""
 
-#: pages/mysat-help.php:21
+#: includes/mysat-help.php:41
 msgid "you can back to"
 msgstr ""
 
-#: pages/mysat-help.php:22
+#: includes/mysat-help.php:42
 msgid "if you like or need it"
 msgstr ""
 
-#: pages/mysat-help.php:24
+#: includes/mysat-help.php:44
 msgid "In a simple and easy way, now you can just go to"
 msgstr ""
 
-#: pages/mysat-help.php:26
+#: includes/mysat-help.php:46
 msgid "and Allow File Code Editor"
 msgstr ""
 
-#: pages/mysat-help.php:32
+#: includes/mysat-help.php:52
 msgid "How to edit with cPanel"
 msgstr ""
 
-#: pages/mysat-help.php:39
+#: includes/mysat-help.php:59
 msgid "When you log in on your"
 msgstr ""
 
-#: pages/mysat-help.php:40
+#: includes/mysat-help.php:60
 msgid "host account search type"
 msgstr ""
 
-#: pages/mysat-help.php:41
-#: pages/mysat-help.php:47
-#: pages/mysat-help.php:82
+#: includes/mysat-help.php:61
+#: includes/mysat-help.php:67
+#: includes/mysat-help.php:102
 msgid "File Manager"
 msgstr ""
 
-#: pages/mysat-help.php:42
+#: includes/mysat-help.php:62
 msgid "like on the picture"
 msgstr ""
 
-#: pages/mysat-help.php:44
+#: includes/mysat-help.php:64
 msgid "Click on the File Manager"
 msgstr ""
 
-#: pages/mysat-help.php:45
+#: includes/mysat-help.php:65
 msgid "icon"
 msgstr ""
 
-#: pages/mysat-help.php:46
+#: includes/mysat-help.php:66
 msgid "and in the new web browser tab you see the"
 msgstr ""
 
-#: pages/mysat-help.php:48
+#: includes/mysat-help.php:68
 msgid "window and all your hosting folders and files"
 msgstr ""
 
-#: pages/mysat-help.php:50
+#: includes/mysat-help.php:70
 msgid "Go to directory"
 msgstr ""
 
-#: pages/mysat-help.php:51
+#: includes/mysat-help.php:71
 msgid "public_html"
 msgstr ""
 
-#: pages/mysat-help.php:52
+#: includes/mysat-help.php:72
 msgid "and found file"
 msgstr ""
 
-#: pages/mysat-help.php:53
+#: includes/mysat-help.php:73
 msgid "click the right mouse to see a menu, after that click"
 msgstr ""
 
-#: pages/mysat-help.php:54
+#: includes/mysat-help.php:74
 msgid "with the left click, if you get some popup window just click edit"
 msgstr ""
 
-#: pages/mysat-help.php:56
+#: includes/mysat-help.php:76
 msgid "When you see the file editor, look to find"
 msgstr ""
 
-#: pages/mysat-help.php:58
+#: includes/mysat-help.php:78
 msgid "and change from"
 msgstr ""
 
-#: pages/mysat-help.php:61
+#: includes/mysat-help.php:81
 msgid "Click on the top right button"
 msgstr ""
 
-#: pages/mysat-help.php:62
+#: includes/mysat-help.php:82
 msgid "Save Changes"
 msgstr ""
 
-#: pages/mysat-help.php:63
+#: includes/mysat-help.php:83
 msgid "and then click on the"
 msgstr ""
 
-#: pages/mysat-help.php:64
+#: includes/mysat-help.php:84
 msgid "Close"
 msgstr ""
 
-#: pages/mysat-help.php:65
-#: pages/mysat-help.php:69
-#: pages/mysat-help.php:106
+#: includes/mysat-help.php:85
+#: includes/mysat-help.php:89
+#: includes/mysat-help.php:126
 msgid "button"
 msgstr ""
 
-#: pages/mysat-help.php:67
+#: includes/mysat-help.php:87
 msgid "Now you can edit your style on the"
 msgstr ""
 
-#: pages/mysat-help.php:73
+#: includes/mysat-help.php:93
 msgid "How to edit with Plesk"
 msgstr ""
 
-#: pages/mysat-help.php:80
+#: includes/mysat-help.php:100
 msgid "When you log in on your"
 msgstr ""
 
-#: pages/mysat-help.php:81
+#: includes/mysat-help.php:101
 msgid "host account you can see on way your"
 msgstr ""
 
-#: pages/mysat-help.php:83
+#: includes/mysat-help.php:103
 msgid "like on the picture, mark on"
 msgstr ""
 
-#: pages/mysat-help.php:84
+#: includes/mysat-help.php:104
 msgid "Green"
 msgstr ""
 
-#: pages/mysat-help.php:85
+#: includes/mysat-help.php:105
 msgid "and"
 msgstr ""
 
-#: pages/mysat-help.php:86
+#: includes/mysat-help.php:106
 msgid "Blue"
 msgstr ""
 
-#: pages/mysat-help.php:88
+#: includes/mysat-help.php:108
 msgid "When you click on File Manager, you see in the same window all your hosting folders and files"
 msgstr ""
 
-#: pages/mysat-help.php:90
+#: includes/mysat-help.php:110
 msgid "Go to directory"
 msgstr ""
 
-#: pages/mysat-help.php:91
+#: includes/mysat-help.php:111
 msgid "and found file"
 msgstr ""
 
-#: pages/mysat-help.php:92
+#: includes/mysat-help.php:112
 msgid "click the mouse left and click on the file and you get a direct"
 msgstr ""
 
-#: pages/mysat-help.php:93
+#: includes/mysat-help.php:113
 msgid "file to manage"
 msgstr ""
 
-#: pages/mysat-help.php:95
+#: includes/mysat-help.php:115
 msgid "When you see file editor, look to find"
 msgstr ""
 
-#: pages/mysat-help.php:97
+#: includes/mysat-help.php:117
 msgid "and change from"
 msgstr ""
 
-#: pages/mysat-help.php:100
+#: includes/mysat-help.php:120
 msgid "Click on the bottom left button"
 msgstr ""
 
-#: pages/mysat-help.php:101
-msgid "Save"
-msgstr ""
-
-#: pages/mysat-help.php:102
+#: includes/mysat-help.php:122
 msgid "after that editor automatically close"
 msgstr ""
 
-#: pages/mysat-help.php:104
+#: includes/mysat-help.php:124
 msgid "Now you can edit your style on the"
 msgstr ""
 
-#: pages/mysat-help.php:110
+#: includes/mysat-help.php:130
 msgid "Use Code Editor to create or edit files and folders"
 msgstr ""
 
-#: pages/mysat-help.php:117
+#: includes/mysat-help.php:137
 msgid "We mainly use free software and tools that why this is one of our slogans"
 msgstr ""
 
-#: pages/mysat-help.php:118
+#: includes/mysat-help.php:138
 msgid "Freedom to thinking gives you the freedom to work anywhere or anytime"
 msgstr ""
 
-#: pages/mysat-help.php:119
+#: includes/mysat-help.php:139
 msgid "in this case, small but powerful multi-language code editor software Notepad ++"
 msgstr ""
 
-#: pages/mysat-help.php:121
+#: includes/mysat-help.php:141
 msgid "This makes it easier for us to make quick and simpler changes to any project, regardless of whether it is live somewhere on the internet or in the development process"
 msgstr ""
 
-#: pages/mysat-help.php:122
+#: includes/mysat-help.php:142
 msgid "If you are working on the code development side, not mother what. With Notepad ++ in your pocket, you just need to install the Notepad ++ FTP plugin"
 msgstr ""
 
-#: pages/mysat-help.php:123
+#: includes/mysat-help.php:143
 msgid "which allows you to follow protocols like FTP, FTPS, FTPES, and SFTP communications. This is very useful for the development and access online or in localhost"
 msgstr ""
 
-#: pages/mysat-help.php:126
+#: includes/mysat-help.php:146
 msgid "Now when you are connecting with Notepad ++ using FTP you can open any existing file or create a new one, and after any save CTRL+S with the key on the keyboard in the background FTP send changes to the host project and you can see changes"
 msgstr ""
 
-#: pages/mysat-help.php:128
+#: includes/mysat-help.php:148
 msgid "We hope you enjoy Notepad++ as we are"
 msgstr ""
 
-#: pages/mysat-help.php:130
+#: includes/mysat-help.php:150
 msgid "You can find more and download it on the official website"
 msgstr ""

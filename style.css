@@ -115,11 +115,23 @@
     margin-top: 25px
 }
 
-/*
-.alignright {
-	display: none;
+.form-table th {
+    width: 0 !important;
+    padding: 0 !important;
 }
-*/
+
+.form-table td {
+    padding-left: 0 !important;
+}
+
+.function_name {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.function_description {
+    padding-top: 5px;
+}
 
 .img-panel-info {
     width: 100%;

@@ -3,8 +3,8 @@ Contributors: NewfieSoft
 Donate link: https://newfiesoft.com/donate
 Tags: style, css, custom-css, styles, stylesheet, editor, custom, customizer, admin, admin-style, frontend, frontend-style, backend, backend-style, rules, user, user-rules, user-style
 Requires at least: 4.9.0
-Tested up to: 6.1.1
-Stable tag: 1.0.4
+Tested up to: 6.2.1
+Stable tag: 1.1.0
 Requires PHP:  5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin helps you to create and customize user types of rules using <strong>CSS style sheets</strong>.
 
-It Is very useful among Frontend Developers, who work to create many different style combinations on <strong>Frontend</strong> (public/visitor/guest view).
+It Is very useful among Frontend Developers, who work to create many style combinations on <strong>Frontend</strong> (public/visitor/guest view).
 
 But at the same time as you can customize the front view, ask if you can customize what and how can look your <strong>Backend</strong> (wp-admin). Of any user rules type who can access and get a different style.
 
@@ -22,7 +22,6 @@ At the same time, you can do responsive design on the same CSS file rule.
 
 This <strong>Lite Version</strong> plugin supports all standard [WordPress user roles](https://wordpress.org/support/article/roles-and-capabilities/).
 
-From version <strong>1.0.4</strong> we add functionality to disable Gutenberg style anywhere & enable the classic editor. This function helps you to back your WordPress in a classic view, in posts, pages, and widgets.
 
 ### Features
 
@@ -33,6 +32,8 @@ From version <strong>1.0.4</strong> we add functionality to disable Gutenberg st
 * Subscriber custom style view
 * Including Visitor/Guest custom style view style.
 * Disable Gutenberg style
+* Disable the meta generator.
+* Remove "WordPress" from the title on any case scenario and on all available Site Language inside WordPress settings.
 
 
 While this <strong>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</strong>, we work to integrate other additional independent WordPress plugins user rules such as [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and many others.
@@ -41,14 +42,16 @@ While this <strong>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-
 == Screenshots ==
 
 1. Welcome screen
-2. Plugins Settings where you can enable additional useful functions
-3. Code Editor where you can manage and customize your style
-3. Administrator custom style view
-4. Editor custom style view
-5. Author custom style view
-6. Contributor custom style view
-7. Subscriber custom style view
-8. Visitor custom style view
+2. Code Editor where you can manage and customize your style
+3. Plugins Customization page and his configuration options
+4. Plugins Security page and his Information and configuration options
+5. Plugins Settings where you can enable additional useful functions
+6. Administrator custom style view
+7. Editor custom style view
+8. Author custom style view
+9. Contributor custom style view
+10. Subscriber custom style view
+11. Visitor custom style view
 
 
 == Installation ==
@@ -98,6 +101,13 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 
 == Changelog ==
+
+= 1.1.0 - 17.05.2023 =
+* We reorganized the version control schematic.
+* We complete testing on WordPress version 6.2.1
+* Add : Functions on the Security page where you disable the meta generator.
+* Add : Functions on the Customization page where you Remove "WordPress" from the title on any case.
+* On this version we change the link rel='stylesheet' id=' generate line how in order to avoid a possible conflict with any other plugins with the same name as admin-style-css now it is admin-msyt-styles-css
 
 = 1.0.4 - 24.02.2023 =
 * We reorganized the directory structure and code.
