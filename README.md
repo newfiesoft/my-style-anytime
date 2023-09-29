@@ -2,21 +2,19 @@
 
 **<p align="center">Welcome to the My Style Anytime WordPress PLugin GitHub repository.</p>**
 
-<p><a href="https://wordpress.org/plugins/my-style-anytime/"><img src="https://ps.w.org/my-style-anytime/assets/screenshot-3.png?rev=2787844"></a></p>
+<p><a href="https://wordpress.org/plugins/my-style-anytime/"><img src="[https://ps.w.org/my-style-anytime/assets/screenshot-3.png?rev=2787844](https://ps.w.org/my-style-anytime/assets/screenshot-1.png)"></a></p>
 
 
 ## Description
 This plugin helps you to create and customize user types of rules using <b>CSS style sheets</b>.
 
-It Is very useful among Frontend Developers, who work to create many different style combinations on <b>Frontend</b> (public/visitor/guest view).
+It Is very useful among front-end developers, who work to create many different style combinations on <b>Frontend</b> (public/visitor/guest view).
 
-But at the same time as you can customize the front view, ask if you can customize what and how can look your <b>Backend</b> (wp-admin). Of any user rules type who can access and get a different style.
+But at the same time as you can customize the front view, ask if you can customize what and how your <b>Backend</b> (wp-admin). Of any user rules type who can access and get a different style.
 
 At the same time, you can do responsive design on the same CSS file rule.
 
-This <b>Lite Version</b> who can download free on the [WordPress plugins market](https://wordpress.org/plugins/my-style-anytime/), plugin supports all standard [WordPress user roles](https://wordpress.org/support/article/roles-and-capabilities/).
-
-From version <b>1.0.4</b> we add functionality to disable Gutenberg style anywhere & enable the classic editor. This function helps you to back your WordPress in a classic view, in posts, pages, and widgets.
+From version <b>1.2.0</b> From now on, as part of this plugin, CSS rules will integrate other additional independent WordPress plugin user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEOt](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/).
 
 ## Features
 
@@ -30,8 +28,6 @@ From version <b>1.0.4</b> we add functionality to disable Gutenberg style anywhe
 - Disable the meta generator.
 - Remove "WordPress" from the title on any case scenario and on all available Site Language inside WordPress settings.
 
-
-While this <b>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</b>, we work to integrate other additional independent WordPress plugins user rules such as <b>[WooCommerce](https://wordpress.org/plugins/woocommerce/)</b>, <b>[Loco Translate](https://wordpress.org/plugins/loco-translate/)</b>, <b>[Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)</b>, <b>[YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/)</b>, and many others.
 
 ## Be a Community contributions
 We are always welcome and help us to work together, feel free to answer questions on GitHub and within the communities.
@@ -51,6 +47,6 @@ Please **DO NOT** open issues for general support questions as we want to keep G
 
 - If you have any more questions, visit our support on the [Plugin's Forum](https://wordpress.org/support/plugin/my-style-anytime).
 
-## Join our and give us feedback
+## Join us and give us feedback
 - If you like this plugin [My Style Anytime](https://wordpress.org/plugins/my-style-anytime/), share your experience and [Ratings with us](https://wordpress.org/support/plugin/my-style-anytime/reviews/#new-post).
 - Would you like to support the advancement of this plugin? [Donate](https://newfiesoft.com/donate/) to this plugin.
