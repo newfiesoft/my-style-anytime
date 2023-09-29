@@ -37,7 +37,8 @@
 
 .license-container .license-title {
     margin-top: 0;
-    font-size: 30px
+    font-size: 30px;
+    padding-bottom: 5px;
 }
 
 .license-container .license-info li {
@@ -115,12 +116,16 @@
     margin-top: 25px
 }
 
-.form-table th {
+.page_mysat_security_page .form-table th,
+.page_mysat_settings_page .form-table th,
+.page_mysat_custom_page .form-table th {
     width: 0 !important;
     padding: 0 !important;
 }
 
-.form-table td {
+.page_mysat_security_page .form-table td,
+.page_mysat_settings_page .form-table td,
+.page_mysat_custom_page .form-table td {
     padding-left: 0 !important;
 }
 
@@ -154,4 +159,25 @@
 .help-style {
     color: #b12222;
     font-weight: bold;
+}
+
+.rate-star-filled, .faq-filled, .help-filled, .donate-filled {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rate-star-filled {
+    color:#ffb900;
+}
+
+.faq-filled {
+    color:#30bb20;
+}
+
+.help-filled {
+    color:#cd1212;
+}
+
+.donate-filled {
+    color:#ff8f00;
 }

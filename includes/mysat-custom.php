@@ -79,7 +79,7 @@ function mysat_remove_wp_title_callback() {
 	$remove_meta_gen = get_option( 'mysat_remove_wp_title', false );
 	echo '<label for="mysat_remove_wp_title" class="function_name">';
 	echo '<input type="checkbox" id="mysat_remove_wp_title" name="mysat_remove_wp_title" value="1" ' . checked( $remove_meta_gen, 1, false ) . ' />';
-	echo __('Remove WordPress from title', 'my-style-anytime');
+	echo __('Remove WordPress from the title', 'my-style-anytime');
 	echo '</label><div class="function_description">';
 	echo __('From the website title displayed in a browser tab and dashboard, and wp-login.php for enhanced branding and security.', 'my-style-anytime');
 	echo '</div>';
@@ -92,7 +92,7 @@ function mysat_render_custom_page() {
     <div class="license-container">
         <h3 class="license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> <?php _e( 'Customization', 'my-style-anytime' ); ?></h3>
         <hr>
-        <form action="options.php" method="post">
+        <form action="options.php" method="post" class="page_mysat_custom_page">
 			<?php
 			settings_fields( 'mysat_custom_group' );
 			do_settings_sections( 'mysat_custom_page' );

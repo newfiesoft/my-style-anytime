@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: My Style Anytime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-20 23:29+0200\n"
-"PO-Revision-Date: 2023-02-24 23:29+0200\n"
+"PO-Revision-Date: 2023-09-29 23:29+0200\n"
 "Last-Translator: NewfieSoft <support@newfiesoft.com>\n"
 "Language-Team: NewfieSoft <support@newfiesoft.com>\n"
 "Language: en_US\n"
@@ -32,7 +32,7 @@ msgid "NewfieSoft"
 msgstr ""
 
 #: my-style-anytime.php:7
-msgid "This WordPress plugin helps you to create and customize Front-end <strong>(public view)</strong> and Back-end <strong>(wp-admin)</strong> style views using the user's type of rules. At the same time, you can do responsive design on the same CSS file rule. <strong>#Lite Version</strong> Now you can <strong>Disable Gutenberg style</strong> anywhere & Enable the classic editor. This function helps you to back your WordPress in a classic view in posts, pages, widgets"
+msgid "This WordPress plugin helps you to create and customize Front-end <strong>(public view)</strong> and Back-end <strong>(wp-admin)</strong> style views using the user's type of rules. At the same time, you can do responsive design on the same CSS file rule. Now you can <strong>Disable Gutenberg style</strong> anywhere & Enable the classic editor. This function helps you to back your WordPress in a classic view in posts, pages, widgets."
 msgstr ""
 
 #: my-style-anytime.php:54
@@ -40,7 +40,7 @@ msgid "My Style Anytime"
 msgstr ""
 
 #: my-style-anytime.php:64
-#: my-style-anytime.php:132
+#: my-style-anytime.php:131
 msgid "General"
 msgstr ""
 
@@ -71,19 +71,16 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#: my-style-anytime.php:133
-msgid "Get Premium"
-msgstr ""
-
-#: my-style-anytime.php:163
+#: my-style-anytime.php:159
 msgid "Community Support"
 msgstr ""
 
-#: my-style-anytime.php:164
+#: my-style-anytime.php:160
+#: includes/mysat-general.php:47
 msgid "FAQ"
 msgstr ""
 
-#: my-style-anytime.php:165
+#: my-style-anytime.php:161
 msgid "Ratings"
 msgstr ""
 
@@ -105,39 +102,39 @@ msgid "We are honored that you decided to use our plugin."
 msgstr ""
 
 #: includes/mysat-general.php:35
-msgid "This is"
+msgid "As you read before installing and activating this plugin with him, you have the possibility to create a custom CSS view using user rules."
 msgstr ""
 
 #: includes/mysat-general.php:36
-msgid "Lite Version,"
+msgid "If you like this plugin it would be nice from your side to give us your rating and feedback."
 msgstr ""
 
-#: includes/mysat-general.php:37
-msgid "and you have full WordPress default user rules support."
+#: includes/mysat-general.php:46
+msgid "For help, you have our "
 msgstr ""
 
-#: includes/mysat-general.php:38
-msgid "If you like this plugin and you need other plugins user roles in plugins like as is WooCommerce or others who have user roles"
+#: includes/mysat-general.php:48
+msgid "part, or if that does not help you can write your question in the"
 msgstr ""
 
-#: includes/mysat-general.php:40
-msgid "Visit our site for a premium offer"
+#: includes/mysat-general.php:49
+msgid "support sections."
 msgstr ""
 
-#: includes/mysat-general.php:41
-msgid "here"
+#: includes/mysat-general.php:52
+msgid "We would be very pleased if you supported the advancement of this plugin with your "
 msgstr ""
 
-#: includes/mysat-general.php:42
-msgid ", for a single or multi-site with one single license key"
+#: includes/mysat-general.php:53
+msgid "donation"
 msgstr ""
 
-#: includes/mysat-general.php:44
+#: includes/mysat-general.php:57
 #: includes/mysat-help.php:48
 msgid "Enjoy your work"
 msgstr ""
 
-#: includes/mysat-general.php:47
+#: includes/mysat-general.php:60
 #: includes/mysat-custom.php:104
 #: includes/mysat-security.php:69
 #: includes/mysat-settings.php:130
@@ -145,7 +142,7 @@ msgstr ""
 msgid "Premium Tools for WordPress made by"
 msgstr ""
 
-#: includes/mysat-general.php:48
+#: includes/mysat-general.php:61
 #: includes/mysat-custom.php:105
 #: includes/mysat-security.php:70
 #: includes/mysat-settings.php:131
@@ -153,7 +150,7 @@ msgstr ""
 msgid "with"
 msgstr ""
 
-#: includes/mysat-general.php:49
+#: includes/mysat-general.php:62
 #: includes/mysat-custom.php:106
 #: includes/mysat-security.php:71
 #: includes/mysat-settings.php:132
@@ -162,7 +159,7 @@ msgid "in Zürich, Switzerland"
 msgstr ""
 
 #: includes/mysat-custom.php:82
-msgid "Remove WordPress from title"
+msgid "Remove WordPress from the title"
 msgstr ""
 
 #: includes/mysat-custom.php:84
@@ -182,7 +179,7 @@ msgid "Disable Gutenberg Editor"
 msgstr ""
 
 #: includes/mysat-settings.php:61
-msgid "With this, you Disable Gutenberg on your site and back to the classic editor, not meather where you are."
+msgid "With this, you Disable Gutenberg on your site and back to the classic editor, no matter where you are."
 msgstr ""
 
 #: includes/mysat-settings.php:108
@@ -190,7 +187,7 @@ msgid "Allow File Code Editor"
 msgstr ""
 
 #: includes/mysat-settings.php:110
-msgid "This allows you can working with style here end enable file editing in WordPress Dashboard."
+msgid "This allows you can work with style here and enable file editing in the WordPress Dashboard."
 msgstr ""
 
 #: includes/mysat-custom.php:99
@@ -244,7 +241,7 @@ msgid "to"
 msgstr ""
 
 #: includes/mysat-help.php:39
-msgid "After finish your work with"
+msgid "After finishing your work with"
 msgstr ""
 
 #: includes/mysat-help.php:40
@@ -280,17 +277,18 @@ msgid "host account search type"
 msgstr ""
 
 #: includes/mysat-help.php:61
+#: includes/mysat-help.php:64
 #: includes/mysat-help.php:67
 #: includes/mysat-help.php:102
 msgid "File Manager"
 msgstr ""
 
 #: includes/mysat-help.php:62
-msgid "like on the picture"
+msgid "like in the picture"
 msgstr ""
 
 #: includes/mysat-help.php:64
-msgid "Click on the File Manager"
+msgid "Click on the"
 msgstr ""
 
 #: includes/mysat-help.php:65
@@ -318,7 +316,7 @@ msgid "and found file"
 msgstr ""
 
 #: includes/mysat-help.php:73
-msgid "click the right mouse to see a menu, after that click"
+msgid "click the right mouse button to see a menu, after that click"
 msgstr ""
 
 #: includes/mysat-help.php:74
@@ -326,6 +324,7 @@ msgid "with the left click, if you get some popup window just click edit"
 msgstr ""
 
 #: includes/mysat-help.php:76
+#: includes/mysat-help.php:115
 msgid "When you see the file editor, look to find"
 msgstr ""
 
@@ -407,10 +406,6 @@ msgstr ""
 msgid "file to manage"
 msgstr ""
 
-#: includes/mysat-help.php:115
-msgid "When you see file editor, look to find"
-msgstr ""
-
 #: includes/mysat-help.php:117
 msgid "and change from"
 msgstr ""
@@ -436,7 +431,7 @@ msgid "We mainly use free software and tools that why this is one of our slogans
 msgstr ""
 
 #: includes/mysat-help.php:138
-msgid "Freedom to thinking gives you the freedom to work anywhere or anytime"
+msgid "Freedom to think gives you the freedom to work anywhere or anytime"
 msgstr ""
 
 #: includes/mysat-help.php:139
@@ -448,7 +443,7 @@ msgid "This makes it easier for us to make quick and simpler changes to any proj
 msgstr ""
 
 #: includes/mysat-help.php:142
-msgid "If you are working on the code development side, not mother what. With Notepad ++ in your pocket, you just need to install the Notepad ++ FTP plugin"
+msgid "If you are working on the code development side, no matter what. With Notepad ++ in your pocket, you just need to install the Notepad ++ FTP plugin"
 msgstr ""
 
 #: includes/mysat-help.php:143
@@ -456,7 +451,7 @@ msgid "which allows you to follow protocols like FTP, FTPS, FTPES, and SFTP comm
 msgstr ""
 
 #: includes/mysat-help.php:146
-msgid "Now when you are connecting with Notepad ++ using FTP you can open any existing file or create a new one, and after any save CTRL+S with the key on the keyboard in the background FTP send changes to the host project and you can see changes"
+msgid "Now when you are connecting with Notepad ++ using FTP you can open any existing file or create a new one, and after any save CTRL+S with the key on the keyboard in the background FTP sends changes to the host project and you can see changes."
 msgstr ""
 
 #: includes/mysat-help.php:148
@@ -465,4 +460,8 @@ msgstr ""
 
 #: includes/mysat-help.php:150
 msgid "You can find more and download it on the official website"
+msgstr ""
+
+#: includes/mysat-help.php:151
+msgid "here"
 msgstr ""

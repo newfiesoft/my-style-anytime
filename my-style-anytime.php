@@ -4,9 +4,9 @@
 Plugin Name: My Style Anytime
 Plugin URI: https://newfiesoft.com/wp-plugins/my-style-anytime/
 
-Description: This WordPress plugin helps you to create and customize Front-end <strong>(public view)</strong> and Back-end <strong>(wp-admin)</strong> style views using the user's type of rules. At the same time, you can do responsive design on the same CSS file rule. <strong>#Lite Version</strong> Now you can <strong>Disable Gutenberg style</strong> anywhere & Enable the classic editor. This function helps you to back your WordPress in a classic view in posts, pages, widgets
+Description: This WordPress plugin helps you to create and customize Front-end <strong>(public view)</strong> and Back-end <strong>(wp-admin)</strong> style views using the user's type of rules. At the same time, you can do responsive design on the same CSS file rule. Now you can <strong>Disable Gutenberg style</strong> anywhere & Enable the classic editor. This function helps you to back your WordPress in a classic view in posts, pages, widgets.
 
-Version: 1.1.0
+Version: 1.2.0
 Author: NewfieSoft
 Author URI: https://www.newfiesoft.com
 Donate link: https://newfiesoft.com/donate
@@ -126,20 +126,16 @@ function mysat_custom_link_options_plugin($actions): array {
 
  // Build URL Links
  $support_url = esc_url(add_query_arg('page', 'my-style-anytime', get_admin_url() . 'admin.php'));
- $getpro_url = esc_url(add_query_arg('', '', 'https://newfiesoft.com/wp-plugins/my-style-anytime/'));
 
  // Links name
  $support_name =__('General', 'my-style-anytime');
- $getpro_name =__('Get Premium', 'my-style-anytime');
 
  // Create buttons
  $settings_url = '<a href="' . $support_url . '">' . $support_name . '</a>';
- $site_link_premium = '<a href="' . $getpro_url . '" class="premium" target="_blank">' . $getpro_name . '</a>';
 
     // Organize buttons
     return array_merge(
         (array)$settings_url,
-        (array)$site_link_premium,
         $actions,
     );
 }

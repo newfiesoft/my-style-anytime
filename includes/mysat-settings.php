@@ -58,7 +58,7 @@ function mysat_disable_gutenberg_callback() {
 	echo '<input type="checkbox" id="mysat_disable_gutenberg" name="mysat_disable_gutenberg" value="1" ' . checked( $remove_meta_gen, 1, false ) . ' />';
 	echo __('Disable Gutenberg Editor', 'my-style-anytime');
 	echo '</label><div class="function_description">';
-	echo __('With this, you Disable Gutenberg on your site and back to the classic editor, not meather where you are.', 'my-style-anytime');
+	echo __('With this, you Disable Gutenberg on your site and back to the classic editor, no matter where you are.', 'my-style-anytime');
 	echo '</div>';
 }
 
@@ -107,7 +107,7 @@ function mysat_disallow_file_edit_callback() {
 	echo '<input type="checkbox" id="mysat_disallow_file_edit" name="mysat_disallow_file_edit" value="1" ' . checked( $remove_meta_gen, 1, false ) . ' />';
 	echo __('Allow File Code Editor', 'my-style-anytime');
 	echo '</label><div class="function_description">';
-	echo __('This allows you can working with style here end enable file editing in WordPress Dashboard.', 'my-style-anytime');
+	echo __('This allows you can work with style here and enable file editing in the WordPress Dashboard.', 'my-style-anytime');
 	echo '</div>';
 }
 
@@ -118,7 +118,7 @@ function mysat_render_settings_page() {
     <div class="license-container">
         <h3 class="license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> <?php _e( 'Settings', 'my-style-anytime' ); ?></h3>
         <hr>
-        <form action="options.php" method="post">
+        <form action="options.php" method="post" class="page_mysat_settings_page">
 			<?php
 			settings_fields( 'mysat_settings_group' );
 			do_settings_sections( 'mysat_settings_page' );

@@ -64,6 +64,38 @@
     color: green;
 }
 
+/* WooCommerce User rules style example */
+
+.hello-shop-manager {
+    display: none;
+}
+
+.hello-customer {
+    display: none;
+}
+
+/* Loco Translate User rules style example */
+
+.hello-translator {
+    display: none;
+}
+
+/* Yoast SEO User rules style example */
+
+.hello-seo-manager {
+    display: none;
+}
+
+.hello-seo-editor {
+    display: none;
+}
+
+/* YITH Affiliates User rules style example */
+
+.hello-affiliates {
+    display: none;
+}
+
 /*#########################################################################*/
 
 /*=== Start Responsive configurations for this rules user type ===*/

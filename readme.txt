@@ -3,8 +3,8 @@ Contributors: NewfieSoft
 Donate link: https://newfiesoft.com/donate
 Tags: style, css, custom-css, styles, stylesheet, editor, custom, customizer, admin, admin-style, frontend, frontend-style, backend, backend-style, rules, user, user-rules, user-style
 Requires at least: 4.9.0
-Tested up to: 6.2.1
-Stable tag: 1.1.0
+Tested up to: 6.3.1
+Stable tag: 1.2.0
 Requires PHP:  5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
@@ -20,7 +20,6 @@ But at the same time as you can customize the front view, ask if you can customi
 
 At the same time, you can do responsive design on the same CSS file rule.
 
-This <strong>Lite Version</strong> plugin supports all standard [WordPress user roles](https://wordpress.org/support/article/roles-and-capabilities/).
 
 
 ### Features
@@ -36,7 +35,7 @@ This <strong>Lite Version</strong> plugin supports all standard [WordPress user 
 * Remove "WordPress" from the title on any case scenario and on all available Site Language inside WordPress settings.
 
 
-While this <strong>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-anytime/)</strong>, we work to integrate other additional independent WordPress plugins user rules such as [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and many others.
+From now on, as part of this plugin, CSS rules will integrate other additional independent WordPress plugin user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and many others.
 
 
 == Screenshots ==
@@ -52,6 +51,12 @@ While this <strong>[Premium Version](https://newfiesoft.com/wp-plugins/my-style-
 9. Contributor custom style view
 10. Subscriber custom style view
 11. Visitor custom style view
+12. WooCommerce Shop Manager custom style view
+13. WooCommerce Customer custom style view
+14. Loco Translate custom style view
+15. Yoast SEO Manager custom style view
+16. Yoast SEO Editor custom style view
+17. YITH WooCommerce Affiliates custom style view
 
 
 == Installation ==
@@ -101,6 +106,18 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 
 == Changelog ==
+
+= 1.2.0 - 29.09.2023 =
+* We complete testing on WordPress version 6.3.1
+
+* Add : We optimize the .pot file as a part of the plugin, add new lines, and optimize olders.
+
+* Add : In this version we implement [WooCommerce](https://wordpress.org/plugins/woocommerce/) user rules.
+* Add : In this version we implement [Loco Translate](https://wordpress.org/plugins/loco-translate/) user rules.
+* Add : In this version we implement [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) user rules.
+* Add : In this version we implement [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/) user rules.
+
+* Fix : disagreements with form-table
 
 = 1.1.0 - 17.05.2023 =
 * We reorganized the version control schematic.

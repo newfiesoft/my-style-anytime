@@ -57,7 +57,7 @@ function mysat_render_security_page() {
     <div class="license-container">
         <h3 class="license-title" style="margin:0;"><i class="dashicons dashicons-info-outline"></i> <?php _e( 'Security', 'my-style-anytime' ); ?></h3>
         <hr>
-        <form action="options.php" method="post">
+        <form action="options.php" method="post" class="page_mysat_security_page">
 		    <?php
 		    settings_fields( 'mysat_security_group' );
 		    do_settings_sections( 'mysat_security_page' );
