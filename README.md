@@ -14,7 +14,7 @@ But at the same time as you can customize the front view, ask if you can customi
 
 At the same time, you can do responsive design on the same CSS file rule.
 
-From version <b>1.2.0</b> From now on, as part of this plugin, CSS rules will integrate other additional independent WordPress plugin user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEOt](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/).
+From now on, as part of this plugin, CSS rules will integrate other additional independent WordPress plugin user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEOt](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and if you have any suggestions please post inside the support topic [Suggest a plugin that adds his role inside users](https://wordpress.org/support/topic/suggest-a-plugin-that-adds-his-role-inside-users/).
 
 ## Features
 
