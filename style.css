@@ -1,16 +1,10 @@
 
 .version {
-    z-index: 99;
-    text-align: right;
-    top: 40px;
-    position: relative;
-    right: 36px;
+    font-style: italic;
 }
 
 .power-by-info {
-    right: 30px;
-    position: relative;
-    text-align: right;
+    font-style: normal;
 }
 
 .license-container {
@@ -181,3 +175,49 @@
 .donate-filled {
     color:#ff8f00;
 }
+
+.code-editor-description {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.list-css-files {
+    margin: 10px 0 10px 0;
+}
+
+.select-css-file-item {
+    padding: 5px 0 5px 0;
+    margin: 2px 5px 5px 5px;
+    border: 1px solid #eae9e9;
+    border-radius: 4px;
+    width: auto;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.select-css-file-item a {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #eae9e9;
+    color: #000000;
+    background-color: #eae9e9;
+    text-decoration: none;
+}
+
+.select-css-file-item a:hover {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #ececec;
+    color: #0c85fa;
+    background-color: #ececec;
+    text-decoration: none;
+}
+
+
+#codemirror-container {
+    height: 500px;
+    width: 100%;
+}
+
+.CodeMirror {
+    height: 500px !important;
+}
+

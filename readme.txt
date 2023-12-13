@@ -1,13 +1,13 @@
 === My Style Anytime ===
 Contributors: NewfieSoft
 Donate link: https://newfiesoft.com/donate
-Tags: style, css, custom-css, styles, stylesheet, editor, custom, customizer, admin, admin-style, frontend, frontend-style, backend, backend-style, rules, user, user-rules, user-style
+Tags: custom, css, style, stylesheet, user-style, admin-style, frontend-style, backend-style, rules, user-rules
 Requires at least: 4.9.0
-Tested up to: 6.3.1
-Stable tag: 1.2.0
+Tested up to: 6.4.2
+Stable tag: 1.3.0
 Requires PHP:  5.2.4
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
@@ -20,7 +20,7 @@ But at the same time as you can customize the front view, ask if you can customi
 
 At the same time, you can do responsive design on the same CSS file rule.
 
-
+👉 Please visit the [Github page](https://github.com/newfiesoft/my-style-anytime "Github") for the latest code development, planned enhancements and known issues 👈
 
 ### Features
 
@@ -35,28 +35,29 @@ At the same time, you can do responsive design on the same CSS file rule.
 * Remove "WordPress" from the title on any case scenario and on all available Site Language inside WordPress settings.
 
 
-From now on, as part of this plugin, CSS rules will integrate other additional independent WordPress plugin user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and many others.
+From now on, as part of this plugin, CSS rules will integrate other additional independent WordPress plugin user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and if you have any suggestions please post inside the support topic [Suggest a plugin that adds his role inside users](https://wordpress.org/support/topic/suggest-a-plugin-that-adds-his-role-inside-users/).
 
 
 == Screenshots ==
 
 1. Welcome screen
-2. Code Editor where you can manage and customize your style
-3. Plugins Customization page and his configuration options
-4. Plugins Security page and his Information and configuration options
-5. Plugins Settings where you can enable additional useful functions
-6. Administrator custom style view
-7. Editor custom style view
-8. Author custom style view
-9. Contributor custom style view
-10. Subscriber custom style view
-11. Visitor custom style view
-12. WooCommerce Shop Manager custom style view
-13. WooCommerce Customer custom style view
-14. Loco Translate custom style view
-15. Yoast SEO Manager custom style view
-16. Yoast SEO Editor custom style view
-17. YITH WooCommerce Affiliates custom style view
+2. Manage Style page where you can see all available styles that can be Editing
+3. Code Editor where you can manage and customize your style independent of user role type
+4. Customization page and his configuration options like Remove 100% WordPress from the title
+5. Security page and his Information and configuration options
+6. Settings where you can enable additional useful functions
+7. Administrator custom style view
+8. Editor custom style view
+9. Author custom style view
+10. Contributor custom style view
+11. Subscriber custom style view
+12. Visitor custom style view
+13. WooCommerce Shop Manager custom style view
+14. WooCommerce Customer custom style view
+15. Loco Translate custom style view
+16. Yoast SEO Manager custom style view
+17. Yoast SEO Editor custom style view
+18. YITH WooCommerce Affiliates custom style view
 
 
 == Installation ==
@@ -106,6 +107,16 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 
 == Changelog ==
+
+= 1.3.0 - 13.12.2023 =
+* We complete testing on WordPress version 6.4.2
+* We reorganized and optimized the code, changed the description and tags.
+
+* Add : We Created an Independent Code Editor inside the Mnagage Style page which can only edit CSS files inside set directories, for all user rule types. Inside the Settings page, we note remove options where Disable or Allow the default WordPress File Code Editor for security reasons. And independent of that you can manage your css files for rules.
+
+* Add : We added a Malayalam key on how to remove WordPress on the title of any page. And after testing we again cover all available Site Language inside WordPress.
+
+* Fix : Inside the main localization file my-style-anytime.pot we fix the bugs and optimize on lines how translation can cover and work 100%
 
 = 1.2.0 - 29.09.2023 =
 * We complete testing on WordPress version 6.3.1

@@ -33,6 +33,8 @@
 
 /*=== Front Styles ===*/
 
+/* Standard WordPress User rules style example */
+
 .hello-administrator {
     display: none;
 }
@@ -52,18 +54,6 @@
 .hello-subscriber {
     text-align: center;
     font-size: 36px;
-}
-
-.hello-shop-manager {
-    display: none;
-}
-
-.hello-customer {
-    display: none;
-}
-
-.hello-translator {
-    display: none;
 }
 
 .hello-visitor {
@@ -269,4 +259,3 @@
 /*=== End Responsive configurations for this rules user type ===*/
 
 /*#########################################################################*/
-

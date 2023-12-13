@@ -26,6 +26,8 @@
 
 /*=== Front Styles ===*/
 
+/* Standard WordPress User rules style example */
+
 .hello-administrator {
     display: none;
 }
@@ -43,18 +45,6 @@
 }
 
 .hello-subscriber {
-    display: none;
-}
-
-.hello-shop-manager {
-    display: none;
-}
-
-.hello-customer {
-    display: none;
-}
-
-.hello-translator {
     display: none;
 }
 
@@ -263,4 +253,3 @@
 /*=== End Responsive configurations for this rules user type ===*/
 
 /*#########################################################################*/
-
