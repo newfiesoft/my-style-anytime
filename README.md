@@ -6,15 +6,15 @@
 
 
 ## Description
-This plugin helps you to create and customize user types of rules using <b>CSS style sheets</b>.
+Create and customize user front public or back wp-admin and responsive using the same <strong>CSS style sheets</strong> file based on user types of rules.
 
-It Is very useful among front-end developers, who work to create many different style combinations on <b>Frontend</b> (public/visitor/guest view).
+It Is very useful among Frontend Developers, who work to create many style combinations on <strong>Frontend</strong> (public/visitor/guest view).
 
-But at the same time as you can customize the front view, ask if you can customize what and how your <b>Backend</b> (wp-admin). Of any user rules type who can access and get a different style.
+But at the same time as you can customize the front view, ask if you can customize what and how your <strong>Backend</strong> (wp-admin). Of any user rules type who can access and get a different style.
 
 At the same time, you can do responsive design on the same CSS file rule.
 
-From now on, as part of this plugin, CSS rules will integrate other additional independent WordPress plugin user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEOt](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and if you have any suggestions please post inside the support topic [Suggest a plugin that adds his role inside users](https://wordpress.org/support/topic/suggest-a-plugin-that-adds-his-role-inside-users/).
+For testing our plugin how can create a custom CSS user rules style, and WordPress basic user rules type we use independent popular WordPress plugins that have his self user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), and [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/). If you have any suggestions please post inside the support topic [Suggest a plugin that adds his role inside users](https://wordpress.org/support/topic/suggest-a-plugin-that-adds-his-role-inside-users/).
 
 ## Features
 
