@@ -1,10 +1,34 @@
 
-.version {
-    font-style: italic;
+/* This is System part of css how can make more effective to use plugin and style only for back-end use */
+
+/* Custom icon for the plugin options menu */
+#toplevel_page_my-style-anytime .wp-menu-image::before {
+    font-family: 'Font Awesome 5 Free', serif;
+    content: "\f5aa";
+    font-weight: 900;
+    font-size: 14px;
+    padding:10px 0 0 0;
 }
 
 .power-by-info {
     font-style: normal;
+}
+
+.power-by-info .fa-heart {
+    color: #dd2e44;
+}
+
+.version {
+    font-style: italic;
+}
+
+.dashicons {
+    padding: 2px 1px 0 0;
+    width: 25px;
+}
+
+.xdebug-var-dump {
+    margin: 3% 0 0 20%;
 }
 
 .license-container {
@@ -132,23 +156,20 @@
     padding-top: 5px;
 }
 
-.img-panel-info {
-    width: 100%;
-}
-
-.img-cover-info {
-    width: 20%;
-}
-
-.lite {
-    color: blue;
+.page_mysat_security_page .form-table th[scope="row"], .page_mysat_custom_page .form-table th[scope="row"], .page_mysat_settings_page .form-table th[scope="row"] {
+    width: 300px !important;
+    position: absolute;
+    margin: 15px 0 0 20px !important;
     font-weight: bold;
+    vertical-align: middle;
 }
 
-.premium {
-    color: #36940f;
-    font-weight: bold;
-}
+/*### Buttons styles ###*/
+
+
+/*#########################################################################*/
+
+/*### Start General page styles ###*/
 
 .help-style {
     color: #b12222;
@@ -173,10 +194,16 @@
 }
 
 .donate-filled {
-    color:#ff8f00;
+    color:#0c9cf3;
 }
 
-.code-editor-description {
+/*### End General page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Editor page styles ###*/
+
+.code-editor-description-page, .backup-description-page {
     font-size: 15px;
     padding: 5px;
 }
@@ -211,13 +238,94 @@
     text-decoration: none;
 }
 
-
 #codemirror-container {
     height: 500px;
     width: 100%;
+}
+
+.edit-link {
+    padding: 2px;
+}
+
+.select-css-file-item .fa-circle-check {
+    color: #26b726;
+}
+
+.select-css-file-item .fa-circle-xmark {
+    color: #f30000;
+    padding: 0 0 0 2px;
+}
+
+.select-css-file-item .fa-paint-roller {
+
 }
 
 .CodeMirror {
     height: 500px !important;
 }
 
+/*### End Editor page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Customization page styles ###*/
+
+
+/*### End Customization page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Security page styles ###*/
+
+
+/*### End Security page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Settings page styles ###*/
+
+
+/*### End Settings page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Backup page styles ###*/
+
+.backup-buttom-content {
+    margin: 19px 0 0 0;
+}
+
+.backup-list h4 {
+    margin:30px 0 5px 0 !important;
+}
+
+.backup-item {
+    width: 100%;
+    display: flex;
+    padding: 5px 0 5px 0;
+}
+
+.backup-item span {
+    padding: 6px 10px 0 0;
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+}
+
+.restore-button {
+    margin: 0 10px 0 0;
+}
+
+.delete-button {
+    margin: 0 0 0 10px;
+}
+
+.backup-item .button-primary .button-secondary {
+    margin: 0 0 10px 0;
+}
+
+
+
+/*### End Backup page styles ###*/
+
+/*#########################################################################*/

@@ -15,7 +15,7 @@
  */
 
 /* To import visitor style in this user @Rules type
-@import "visitor-style.css";
+@import &quot;visitor-style.css&quot;;
  */
 
 /*#########################################################################*/
@@ -24,7 +24,7 @@
 /*=== Back Styles ===*/
 
 #wpadminbar {
-    background-color: #105d9f !important;
+    background-color: #105d9c !important;
 }
 
 

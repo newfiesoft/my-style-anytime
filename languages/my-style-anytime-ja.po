@@ -1,331 +1,335 @@
 # Copyright (C) 2023 NewfieSoft
 # This file is distributed under the same license as the My Style Anytime plugin.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: My Style Anytime\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-style-"
 "anytime/\n"
-"Last-Translator: NewfieSoft <support@newfiesoft.com>\n"
-"Language-Team: NewfieSoft <support@newfiesoft.com>\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-21 21:41+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2024-02-21 20:46+0000\n"
+"PO-Revision-Date: 2024-02-22 00:57+0000\n"
 "X-Domain: my-style-anytime\n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Loco https://localise.biz/"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
 
 #: pages/backup.php:333
 msgid "After deleting you are not able to revert this file!"
-msgstr ""
+msgstr "削除すると、このファイルを元に戻すことはできません。"
 
 #: pages/customization.php:60
 msgid "Are you sure you want to save changes?"
-msgstr ""
+msgstr "変更を保存してもよろしいですか?"
 
 #: pages/backup.php:332
 msgid "Are you sure?"
-msgstr ""
+msgstr "本気ですか？"
 
 #: pages/general.php:33
 msgid ""
 "As you read before installing and activating this plugin with him, you have "
 "the possibility to create a custom CSS view using user rules."
 msgstr ""
+"このプラグインをインストールしてアクティブ化する前に読んでいただいたように、ユーザー ルールを使用してカスタム CSS ビューを作成することができます。"
 
 #: my-style-anytime.php:163
 msgid "Backup"
-msgstr ""
+msgstr "バックアップ"
 
 #: pages/backup.php:274
 msgid "Backup / Restore"
-msgstr ""
+msgstr "復元する"
 
 #: pages/backup.php:282
 msgid "Backup Styles"
-msgstr ""
+msgstr "バックアップスタイル"
 
 #: pages/backup.php:39
 msgid "Backup Successful"
-msgstr ""
+msgstr "バックアップ成功"
 
 #: pages/backup.php:339 pages/customization.php:64
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: pages/editor.php:100
 msgid "Code Editor"
-msgstr ""
+msgstr "コードエディタ"
 
 #: my-style-anytime.php:248
 msgid "Community Support"
-msgstr ""
+msgstr "コミュニティサポート"
 
 #. Description of the plugin
 msgid ""
 "Create and customize user front public or back wp-admin and responsive using "
 "the same CSS style sheets file based on user types of rules."
 msgstr ""
+"ユーザーのルールのタイプに基づいて、同じ CSS スタイル シート ファイルを使用して、ユーザー フロント パブリックまたはバック wp-admin "
+"とレスポンシブを作成およびカスタマイズします。"
 
 #: my-style-anytime.php:136 pages/customization.php:39
 msgid "Customization"
-msgstr ""
+msgstr "カスタマイズ"
 
 #: pages/backup.php:314
 msgid "Delete"
-msgstr ""
+msgstr "消去"
 
 #: pages/backup.php:101
 msgid "Delete Failed"
-msgstr ""
+msgstr "削除に失敗しました"
 
 #: pages/backup.php:90
 msgid "Delete Successful"
-msgstr ""
+msgstr "削除に成功しました"
 
 #: pages/settings.php:18
 msgid "Disable Gutenberg Editor"
-msgstr ""
+msgstr "Gutenberg エディターを無効にする"
 
 #: pages/general.php:51
 msgid "donation"
-msgstr ""
+msgstr "寄付"
 
 #: pages/general.php:55
 msgid "Enjoy your work"
-msgstr ""
+msgstr "仕事を楽しんでください"
 
 #: pages/editor.php:319
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 #: pages/editor.php:320
 msgid "Error updating file: "
-msgstr ""
+msgstr "ファイルの更新中にエラーが発生しました:"
 
 #: pages/backup.php:47
 msgid "Failed to create a backup."
-msgstr ""
+msgstr "バックアップの作成に失敗しました。"
 
 #: pages/backup.php:102
 msgid "Failed to delete backup file."
-msgstr ""
+msgstr "バックアップファイルの削除に失敗しました。"
 
 #: pages/backup.php:70
 msgid "Failed to restore styles."
-msgstr ""
+msgstr "スタイルの復元に失敗しました。"
 
 #: my-style-anytime.php:249 pages/general.php:45
 msgid "FAQ"
-msgstr ""
+msgstr "よくある質問"
 
 #: pages/general.php:44
 msgid "For help, you have our "
-msgstr ""
+msgstr "サポートが必要な場合は、"
 
 #: pages/customization.php:85
 msgid ""
 "From the website title displayed in a browser tab and dashboard, and wp-"
 "login.php for enhanced branding and security."
 msgstr ""
+"ブラウザーのタブとダッシュボードに表示される Web サイトのタイトルと、ブランディングとセキュリティを強化するための wp-login.php から。"
 
 #: my-style-anytime.php:118 my-style-anytime.php:219
 msgid "General"
-msgstr ""
+msgstr "一般的な"
 
 #: pages/editor.php:146
 msgid "Generate CSS File for"
-msgstr ""
+msgstr "CSS ファイルを生成する"
 
 #: pages/editor.php:169
 msgid "Generate Visitor CSS File"
-msgstr ""
+msgstr "訪問者CSSファイルの生成"
 
 #: pages/backup.php:276
 msgid ""
 "Here you can create a backup anytime for all styles that you create and "
 "restore, all archive files have been storage inside"
-msgstr ""
+msgstr "ここでは、作成および復元したすべてのスタイルのバックアップをいつでも作成できます。すべてのアーカイブ ファイルは内部に保存されています。"
 
 #: pages/general.php:31
 msgid "Hi,"
-msgstr ""
+msgstr "こんにちは、"
 
 #. URI of the plugin
 msgid "https://newfiesoft.com/wp-plugins/my-style-anytime/"
-msgstr ""
+msgstr "https://newfiesoft.com/wp-plugins/my-style-anytime/"
 
 #. Author URI of the plugin
 msgid "https://www.newfiesoft.com"
-msgstr ""
+msgstr "https://www.newfiesoft.com"
 
 #: pages/general.php:34
 msgid ""
 "If you like this plugin it would be nice from your side to give us your "
 "rating and feedback."
-msgstr ""
+msgstr "このプラグインが気に入っていただけましたら、評価とフィードバックをいただければ幸いです。"
 
 #. FontAwesome heart icon
 #: my-style-anytime.php:316
 msgid "in Zürich, Switzerland"
-msgstr ""
+msgstr "スイス、チューリッヒにて"
 
 #: pages/backup.php:296
 msgid "List Backup zip files"
-msgstr ""
+msgstr "バックアップ zip ファイルの一覧表示"
 
 #: my-style-anytime.php:127
 msgid "Manage Style"
-msgstr ""
+msgstr "スタイルの管理"
 
 #. Name of the plugin
 #: my-style-anytime.php:107
 msgid "My Style Anytime"
-msgstr ""
+msgstr "My Style Anytime"
 
 #. Author of the plugin
 msgid "NewfieSoft"
-msgstr ""
+msgstr "NewfieSoft"
 
 #: pages/backup.php:41 pages/backup.php:64 pages/backup.php:71
 #: pages/backup.php:92 pages/backup.php:103 pages/editor.php:309
 #: pages/editor.php:321
 msgid "OK"
-msgstr ""
+msgstr "わかりました"
 
 #: pages/general.php:46
 msgid "part, or if that does not help you can write your question in the"
-msgstr ""
+msgstr "の部分、またはそれが役に立たない場合は、"
 
 #: my-style-anytime.php:312
 msgid "Premium Tools for WordPress made by"
-msgstr ""
+msgstr "WordPress 用プレミアム ツール"
 
 #: my-style-anytime.php:250
 msgid "Ratings"
-msgstr ""
+msgstr "評価"
 
 #: pages/security.php:18
 msgid "Remove meta generator"
-msgstr ""
+msgstr "メタジェネレーターを削除する"
 
 #: pages/customization.php:18
 msgid "Remove WordPress from the title"
-msgstr ""
+msgstr "タイトルからWordPressを削除"
 
 #: pages/security.php:59
 msgid ""
 "Removing the meta generator, helps you to hide the version of WordPress that "
 "you are using from potential attackers."
-msgstr ""
+msgstr "メタ ジェネレーターを削除すると、使用している WordPress のバージョンを潜在的な攻撃者から隠すことができます。"
 
 #: pages/backup.php:69
 msgid "Restore Failed"
-msgstr ""
+msgstr "復元に失敗しました"
 
 #: pages/backup.php:307
 msgid "Restore Styles"
-msgstr ""
+msgstr "スタイルを復元する"
 
 #: pages/backup.php:62
 msgid "Restore Successful"
-msgstr ""
+msgstr "復元に成功しました"
 
 #: pages/customization.php:46 pages/security.php:45 pages/settings.php:45
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: pages/editor.php:196
 msgid "Save Changes"
-msgstr ""
+msgstr "変更内容を保存"
 
 #: pages/customization.php:59
 msgid "Save Changes?"
-msgstr ""
+msgstr "変更内容を保存？"
 
 #: my-style-anytime.php:145 pages/security.php:39
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: pages/editor.php:102
 msgid ""
 "Select below the CSS file who want to edit, and after complete just click on "
 "the button to submit the change."
-msgstr ""
+msgstr "CSS ファイルの下で編集するユーザーを選択し、完了したらボタンをクリックして変更を送信します。"
 
 #: my-style-anytime.php:154 pages/settings.php:39
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: pages/backup.php:40
 msgid "Styles successfully backed up."
-msgstr ""
+msgstr "スタイルは正常にバックアップされました。"
 
 #: pages/backup.php:63
 msgid "Styles successfully restored."
-msgstr ""
+msgstr "スタイルは正常に復元されました。"
 
 #: pages/editor.php:307
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: pages/general.php:47
 msgid "support sections"
-msgstr ""
+msgstr "サポートセクション"
 
 #: pages/backup.php:91
 msgid "The backup file was successfully deleted."
-msgstr ""
+msgstr "バックアップファイルは正常に削除されました。"
 
 #: pages/editor.php:46
 msgid ""
 "The CSS file was not found because it does not exist, you can generate it by "
 "clicking on the paint roller icon."
-msgstr ""
+msgstr "CSS ファイルは存在しないため見つかりませんでした。ペイント ローラー アイコンをクリックすると生成できます。"
 
 #: pages/editor.php:308
 msgid "The file was updated successfully!"
-msgstr ""
+msgstr "ファイルは正常に更新されました。"
 
 #: my-style-anytime.php:322
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: pages/editor.php:166 pages/editor.php:178
 msgid "Visitor Style"
-msgstr ""
+msgstr "ビジタースタイル"
 
 #: pages/general.php:32
 msgid "We are honored that you decided to use our plugin."
-msgstr ""
+msgstr "私たちのプラグインを使用することに決めていただき光栄です。"
 
 #: pages/general.php:50
 msgid ""
 "We would be very pleased if you supported the advancement of this plugin "
 "with your "
-msgstr ""
+msgstr "皆様とともにこのプラグインの進歩をサポートしていただければ大変嬉しく思います。"
 
 #: pages/general.php:29
 msgid "Welcome"
-msgstr ""
+msgstr "いらっしゃいませ"
 
 #: my-style-anytime.php:314
 msgid "with"
-msgstr ""
+msgstr "と"
 
 #: pages/settings.php:59
 msgid ""
 "With this, you Disable Gutenberg on your site and back to the classic editor,"
 " no matter where you are."
-msgstr ""
+msgstr "これにより、サイト上で Gutenberg を無効にし、どこにいてもクラシック エディターに戻ります。"
 
 #: pages/customization.php:63
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: pages/backup.php:338
 msgid "Yes, delete it!"
-msgstr ""
+msgstr "はい、削除してください!"

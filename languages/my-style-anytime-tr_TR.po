@@ -1,331 +1,350 @@
 # Copyright (C) 2023 NewfieSoft
 # This file is distributed under the same license as the My Style Anytime plugin.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: My Style Anytime\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-style-"
 "anytime/\n"
-"Last-Translator: NewfieSoft <support@newfiesoft.com>\n"
-"Language-Team: NewfieSoft <support@newfiesoft.com>\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-21 21:41+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2024-02-21 20:46+0000\n"
+"PO-Revision-Date: 2024-02-22 02:03+0000\n"
 "X-Domain: my-style-anytime\n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Loco https://localise.biz/"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
 
 #: pages/backup.php:333
 msgid "After deleting you are not able to revert this file!"
-msgstr ""
+msgstr "Bu dosyayı sildikten sonra geri alamazsınız!"
 
 #: pages/customization.php:60
 msgid "Are you sure you want to save changes?"
-msgstr ""
+msgstr "Değişiklikleri kaydetmek istediğinizden emin misiniz?"
 
 #: pages/backup.php:332
 msgid "Are you sure?"
-msgstr ""
+msgstr "Emin misin?"
 
 #: pages/general.php:33
 msgid ""
 "As you read before installing and activating this plugin with him, you have "
 "the possibility to create a custom CSS view using user rules."
 msgstr ""
+"Bu eklentiyi onunla kurup etkinleştirmeden önce okuduğunuz gibi, kullanıcı "
+"kurallarını kullanarak özel bir CSS görünümü oluşturma olanağına sahipsiniz."
 
 #: my-style-anytime.php:163
 msgid "Backup"
-msgstr ""
+msgstr "Destek olmak"
 
 #: pages/backup.php:274
 msgid "Backup / Restore"
-msgstr ""
+msgstr "Yedekleme / Geri Yükleme"
 
 #: pages/backup.php:282
 msgid "Backup Styles"
-msgstr ""
+msgstr "Yedekleme Stilleri"
 
 #: pages/backup.php:39
 msgid "Backup Successful"
-msgstr ""
+msgstr "Yedekleme Başarılı"
 
 #: pages/backup.php:339 pages/customization.php:64
 msgid "Cancel"
-msgstr ""
+msgstr "İptal etmek"
 
 #: pages/editor.php:100
 msgid "Code Editor"
-msgstr ""
+msgstr "Kod Düzenleyici"
 
 #: my-style-anytime.php:248
 msgid "Community Support"
-msgstr ""
+msgstr "Topluluk Desteği"
 
 #. Description of the plugin
 msgid ""
 "Create and customize user front public or back wp-admin and responsive using "
 "the same CSS style sheets file based on user types of rules."
 msgstr ""
+"Kullanıcı kural türlerine göre aynı CSS stil sayfaları dosyasını kullanarak "
+"kullanıcı ön genel veya arka wp-admin ve duyarlı oluşturun ve özelleştirin."
 
 #: my-style-anytime.php:136 pages/customization.php:39
 msgid "Customization"
-msgstr ""
+msgstr "Özelleştirme"
 
 #: pages/backup.php:314
 msgid "Delete"
-msgstr ""
+msgstr "Silmek"
 
 #: pages/backup.php:101
 msgid "Delete Failed"
-msgstr ""
+msgstr "Silinemedi"
 
 #: pages/backup.php:90
 msgid "Delete Successful"
-msgstr ""
+msgstr "Başarılı Sil"
 
 #: pages/settings.php:18
 msgid "Disable Gutenberg Editor"
-msgstr ""
+msgstr "Gutenberg Editör'ü devre dışı bırakın"
 
 #: pages/general.php:51
 msgid "donation"
-msgstr ""
+msgstr "bağış"
 
 #: pages/general.php:55
 msgid "Enjoy your work"
-msgstr ""
+msgstr "İşinin tadını çıkar"
 
 #: pages/editor.php:319
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #: pages/editor.php:320
 msgid "Error updating file: "
-msgstr ""
+msgstr "Dosya güncellenirken hata oluştu: "
 
 #: pages/backup.php:47
 msgid "Failed to create a backup."
-msgstr ""
+msgstr "Yedekleme oluşturulamadı."
 
 #: pages/backup.php:102
 msgid "Failed to delete backup file."
-msgstr ""
+msgstr "Yedekleme dosyası silinemedi."
 
 #: pages/backup.php:70
 msgid "Failed to restore styles."
-msgstr ""
+msgstr "Stiller geri yüklenemedi."
 
 #: my-style-anytime.php:249 pages/general.php:45
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
 #: pages/general.php:44
 msgid "For help, you have our "
-msgstr ""
+msgstr "Yardım için bizim"
 
 #: pages/customization.php:85
 msgid ""
 "From the website title displayed in a browser tab and dashboard, and wp-"
 "login.php for enhanced branding and security."
 msgstr ""
+"Tarayıcı sekmesinde ve kontrol panelinde görüntülenen web sitesi başlığından "
+"ve gelişmiş markalama ve güvenlik için wp-login.php'den."
 
 #: my-style-anytime.php:118 my-style-anytime.php:219
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: pages/editor.php:146
 msgid "Generate CSS File for"
-msgstr ""
+msgstr "Şunun için CSS Dosyası Oluştur:"
 
 #: pages/editor.php:169
 msgid "Generate Visitor CSS File"
-msgstr ""
+msgstr "Ziyaretçi CSS Dosyası Oluştur"
 
 #: pages/backup.php:276
 msgid ""
 "Here you can create a backup anytime for all styles that you create and "
 "restore, all archive files have been storage inside"
 msgstr ""
+"Burada, oluşturduğunuz ve geri yüklediğiniz tüm stiller için istediğiniz "
+"zaman bir yedek oluşturabilirsiniz; tüm arşiv dosyaları içeride "
+"depolanmıştır."
 
 #: pages/general.php:31
 msgid "Hi,"
-msgstr ""
+msgstr "Merhaba,"
 
 #. URI of the plugin
 msgid "https://newfiesoft.com/wp-plugins/my-style-anytime/"
-msgstr ""
+msgstr "https://newfiesoft.com/wp-plugins/my-style-anytime/"
 
 #. Author URI of the plugin
 msgid "https://www.newfiesoft.com"
-msgstr ""
+msgstr "https://www.newfiesoft.com"
 
 #: pages/general.php:34
 msgid ""
 "If you like this plugin it would be nice from your side to give us your "
 "rating and feedback."
 msgstr ""
+"Bu eklentiyi beğendiyseniz bize puanınızı ve geri bildiriminizi vermeniz "
+"güzel olur."
 
 #. FontAwesome heart icon
 #: my-style-anytime.php:316
 msgid "in Zürich, Switzerland"
-msgstr ""
+msgstr "İsviçre'nin Zürih şehrinde"
 
 #: pages/backup.php:296
 msgid "List Backup zip files"
-msgstr ""
+msgstr "Yedekleme zip dosyalarını listeleme"
 
 #: my-style-anytime.php:127
 msgid "Manage Style"
-msgstr ""
+msgstr "Stili Yönet"
 
 #. Name of the plugin
 #: my-style-anytime.php:107
 msgid "My Style Anytime"
-msgstr ""
+msgstr "My Style Anytime"
 
 #. Author of the plugin
 msgid "NewfieSoft"
-msgstr ""
+msgstr "NewfieSoft"
 
 #: pages/backup.php:41 pages/backup.php:64 pages/backup.php:71
 #: pages/backup.php:92 pages/backup.php:103 pages/editor.php:309
 #: pages/editor.php:321
 msgid "OK"
-msgstr ""
+msgstr "Tamam"
 
 #: pages/general.php:46
 msgid "part, or if that does not help you can write your question in the"
-msgstr ""
+msgstr "Bu kısım yardımcı olmazsa sorunuzu buraya yazabilirsiniz."
 
 #: my-style-anytime.php:312
 msgid "Premium Tools for WordPress made by"
-msgstr ""
+msgstr "WordPress için Premium Araçlar tarafından yapılmıştır"
 
 #: my-style-anytime.php:250
 msgid "Ratings"
-msgstr ""
+msgstr "Derecelendirmeler"
 
 #: pages/security.php:18
 msgid "Remove meta generator"
-msgstr ""
+msgstr "Meta oluşturucuyu kaldır"
 
 #: pages/customization.php:18
 msgid "Remove WordPress from the title"
-msgstr ""
+msgstr "WordPress'i başlıktan kaldırın"
 
 #: pages/security.php:59
 msgid ""
 "Removing the meta generator, helps you to hide the version of WordPress that "
 "you are using from potential attackers."
 msgstr ""
+"Meta oluşturucuyu kaldırmak, kullandığınız WordPress sürümünü potansiyel "
+"saldırganlardan gizlemenize yardımcı olur."
 
 #: pages/backup.php:69
 msgid "Restore Failed"
-msgstr ""
+msgstr "Geri Yükleme Başarısız Oldu"
 
 #: pages/backup.php:307
 msgid "Restore Styles"
-msgstr ""
+msgstr "Stilleri Geri Yükle"
 
 #: pages/backup.php:62
 msgid "Restore Successful"
-msgstr ""
+msgstr "Başarılı Geri Yükleme"
 
 #: pages/customization.php:46 pages/security.php:45 pages/settings.php:45
 msgid "Save"
-msgstr ""
+msgstr "Kaydetmek"
 
 #: pages/editor.php:196
 msgid "Save Changes"
-msgstr ""
+msgstr "Değişiklikleri Kaydet"
 
 #: pages/customization.php:59
 msgid "Save Changes?"
-msgstr ""
+msgstr "Değişiklikleri Kaydet?"
 
 #: my-style-anytime.php:145 pages/security.php:39
 msgid "Security"
-msgstr ""
+msgstr "Güvenlik"
 
 #: pages/editor.php:102
 msgid ""
 "Select below the CSS file who want to edit, and after complete just click on "
 "the button to submit the change."
 msgstr ""
+"Aşağıdan düzenlemek istediğiniz CSS dosyasını seçin ve tamamlandıktan sonra "
+"değişikliği göndermek için düğmeye tıklayın."
 
 #: my-style-anytime.php:154 pages/settings.php:39
 msgid "Settings"
-msgstr ""
+msgstr "Ayarlar"
 
 #: pages/backup.php:40
 msgid "Styles successfully backed up."
-msgstr ""
+msgstr "Stiller başarıyla yedeklendi."
 
 #: pages/backup.php:63
 msgid "Styles successfully restored."
-msgstr ""
+msgstr "Stiller başarıyla geri yüklendi."
 
 #: pages/editor.php:307
 msgid "Success"
-msgstr ""
+msgstr "Başarı"
 
 #: pages/general.php:47
 msgid "support sections"
-msgstr ""
+msgstr "destek bölümleri"
 
 #: pages/backup.php:91
 msgid "The backup file was successfully deleted."
-msgstr ""
+msgstr "Yedekleme dosyası başarıyla silindi."
 
 #: pages/editor.php:46
 msgid ""
 "The CSS file was not found because it does not exist, you can generate it by "
 "clicking on the paint roller icon."
 msgstr ""
+"CSS dosyası mevcut olmadığından bulunamadı, boya rulosu ikonuna tıklayarak "
+"oluşturabilirsiniz."
 
 #: pages/editor.php:308
 msgid "The file was updated successfully!"
-msgstr ""
+msgstr "Dosya başarıyla güncellendi!"
 
 #: my-style-anytime.php:322
 msgid "Version"
-msgstr ""
+msgstr "Sürüm"
 
 #: pages/editor.php:166 pages/editor.php:178
 msgid "Visitor Style"
-msgstr ""
+msgstr "Ziyaretçi Stili"
 
 #: pages/general.php:32
 msgid "We are honored that you decided to use our plugin."
-msgstr ""
+msgstr "Eklentimizi kullanmaya karar vermenizden onur duyuyoruz."
 
 #: pages/general.php:50
 msgid ""
 "We would be very pleased if you supported the advancement of this plugin "
 "with your "
-msgstr ""
+msgstr "Bu eklentinin geliştirilmesine destek verirseniz çok memnun oluruz."
 
 #: pages/general.php:29
 msgid "Welcome"
-msgstr ""
+msgstr "Hoş geldin"
 
 #: my-style-anytime.php:314
 msgid "with"
-msgstr ""
+msgstr "ile"
 
 #: pages/settings.php:59
 msgid ""
 "With this, you Disable Gutenberg on your site and back to the classic editor,"
 " no matter where you are."
 msgstr ""
+"Bununla, nerede olursanız olun sitenizde Gutenberg'i devre dışı bırakır ve "
+"klasik düzenleyiciye geri dönersiniz."
 
 #: pages/customization.php:63
 msgid "Yes"
-msgstr ""
+msgstr "Evet"
 
 #: pages/backup.php:338
 msgid "Yes, delete it!"
-msgstr ""
+msgstr "Evet, silin!"

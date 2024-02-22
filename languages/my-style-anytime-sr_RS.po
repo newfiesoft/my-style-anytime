@@ -1,331 +1,354 @@
 # Copyright (C) 2023 NewfieSoft
 # This file is distributed under the same license as the My Style Anytime plugin.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: My Style Anytime\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-style-"
 "anytime/\n"
-"Last-Translator: NewfieSoft <support@newfiesoft.com>\n"
-"Language-Team: NewfieSoft <support@newfiesoft.com>\n"
+"Last-Translator: \n"
+"Language-Team: Српски језик\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-21 21:41+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2023-02-24 23:29+0200\n"
+"PO-Revision-Date: 2024-02-21 21:42+0000\n"
 "X-Domain: my-style-anytime\n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Loco https://localise.biz/"
+"Language: sr_RS\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
 
 #: pages/backup.php:333
 msgid "After deleting you are not able to revert this file!"
-msgstr ""
+msgstr "Након брисања не можете вратити ову датотеку!"
 
 #: pages/customization.php:60
 msgid "Are you sure you want to save changes?"
-msgstr ""
+msgstr "Да ли сте сигурни да желите да сачувате промене?"
 
 #: pages/backup.php:332
 msgid "Are you sure?"
-msgstr ""
+msgstr "Јеси ли сигуран?"
 
 #: pages/general.php:33
 msgid ""
 "As you read before installing and activating this plugin with him, you have "
 "the possibility to create a custom CSS view using user rules."
 msgstr ""
+"Док сте читали пре инсталирања и активирања овог додатка са њим, имате "
+"могућност да креирате прилагођени ЦСС приказ користећи корисничка правила."
 
 #: my-style-anytime.php:163
 msgid "Backup"
-msgstr ""
+msgstr "Резервна копија"
 
 #: pages/backup.php:274
 msgid "Backup / Restore"
-msgstr ""
+msgstr "Резервна копија / Враћање копије"
 
 #: pages/backup.php:282
 msgid "Backup Styles"
-msgstr ""
+msgstr "Направи резервну копију"
 
 #: pages/backup.php:39
 msgid "Backup Successful"
-msgstr ""
+msgstr "Резервна копија је успела"
 
 #: pages/backup.php:339 pages/customization.php:64
 msgid "Cancel"
-msgstr ""
+msgstr "Отказати"
 
 #: pages/editor.php:100
 msgid "Code Editor"
-msgstr ""
+msgstr "Едитор кода"
 
 #: my-style-anytime.php:248
 msgid "Community Support"
-msgstr ""
+msgstr "Подршка Заједнице"
 
 #. Description of the plugin
 msgid ""
 "Create and customize user front public or back wp-admin and responsive using "
 "the same CSS style sheets file based on user types of rules."
 msgstr ""
+"Креирајте и прилагодите кориснику предњу страну или задњу страну wp-admin "
+"као и прилагодљив приказ користећи исту датотеку ЦСС стил фајла на основу "
+"корисничких типова и и њихових правила."
 
 #: my-style-anytime.php:136 pages/customization.php:39
 msgid "Customization"
-msgstr ""
+msgstr "Прилагођавања"
 
 #: pages/backup.php:314
 msgid "Delete"
-msgstr ""
+msgstr "Избриши"
 
 #: pages/backup.php:101
 msgid "Delete Failed"
-msgstr ""
+msgstr "Брисање није успело"
 
 #: pages/backup.php:90
 msgid "Delete Successful"
-msgstr ""
+msgstr "Брисање успешно"
 
 #: pages/settings.php:18
 msgid "Disable Gutenberg Editor"
-msgstr ""
+msgstr "Онемогућите Гутенберг Едитор"
 
 #: pages/general.php:51
 msgid "donation"
-msgstr ""
+msgstr "донацијом"
 
 #: pages/general.php:55
 msgid "Enjoy your work"
-msgstr ""
+msgstr "Уживајте у свом раду"
 
 #: pages/editor.php:319
 msgid "Error"
-msgstr ""
+msgstr "Грешка"
 
 #: pages/editor.php:320
 msgid "Error updating file: "
-msgstr ""
+msgstr "Грешка при ажурирању датотеке: "
 
 #: pages/backup.php:47
 msgid "Failed to create a backup."
-msgstr ""
+msgstr "Прављење резервне копије није успело."
 
 #: pages/backup.php:102
 msgid "Failed to delete backup file."
-msgstr ""
+msgstr "Брисање резервне копије датотеке није успело."
 
 #: pages/backup.php:70
 msgid "Failed to restore styles."
-msgstr ""
+msgstr "Враћање стилова није успело."
 
 #: my-style-anytime.php:249 pages/general.php:45
 msgid "FAQ"
-msgstr ""
+msgstr "ЧПП"
 
 #: pages/general.php:44
 msgid "For help, you have our "
-msgstr ""
+msgstr "За помоћ, имате наш део"
 
 #: pages/customization.php:85
 msgid ""
 "From the website title displayed in a browser tab and dashboard, and wp-"
 "login.php for enhanced branding and security."
 msgstr ""
+"У наслову веб локације приказаног на картици прегледача и контролној табли и "
+"wp-login.php за побољшано брендирање и безбедност."
 
 #: my-style-anytime.php:118 my-style-anytime.php:219
 msgid "General"
-msgstr ""
+msgstr "Oпште"
 
 #: pages/editor.php:146
 msgid "Generate CSS File for"
-msgstr ""
+msgstr "Генеришите ЦСС датотеку за"
 
 #: pages/editor.php:169
 msgid "Generate Visitor CSS File"
-msgstr ""
+msgstr "Генеришите ЦСС датотеку посетилаца"
 
 #: pages/backup.php:276
 msgid ""
 "Here you can create a backup anytime for all styles that you create and "
 "restore, all archive files have been storage inside"
 msgstr ""
+"Овде можете да направите резервну копију у било ком тренутку за све стилове "
+"које креирате и вратите, све архивске датотеке су смештене унутра"
 
 #: pages/general.php:31
 msgid "Hi,"
-msgstr ""
+msgstr "Здраво,"
 
 #. URI of the plugin
 msgid "https://newfiesoft.com/wp-plugins/my-style-anytime/"
-msgstr ""
+msgstr "https://newfiesoft.com/wp-plugins/my-style-anytime/"
 
 #. Author URI of the plugin
 msgid "https://www.newfiesoft.com"
-msgstr ""
+msgstr "https://www.newfiesoft.com"
 
 #: pages/general.php:34
 msgid ""
 "If you like this plugin it would be nice from your side to give us your "
 "rating and feedback."
 msgstr ""
+"Ако вам се свиђа овај додатак, било би лепо са ваше стране да нам дате своју "
+"оцену и повратне информације."
 
 #. FontAwesome heart icon
 #: my-style-anytime.php:316
 msgid "in Zürich, Switzerland"
-msgstr ""
+msgstr "у Цириху, Швајцарска"
 
 #: pages/backup.php:296
 msgid "List Backup zip files"
-msgstr ""
+msgstr "Листа резервних зип датотека"
 
 #: my-style-anytime.php:127
 msgid "Manage Style"
-msgstr ""
+msgstr "Управљање стиловима"
 
 #. Name of the plugin
 #: my-style-anytime.php:107
 msgid "My Style Anytime"
-msgstr ""
+msgstr "My Style Anytime"
 
 #. Author of the plugin
 msgid "NewfieSoft"
-msgstr ""
+msgstr "NewfieSoft"
 
 #: pages/backup.php:41 pages/backup.php:64 pages/backup.php:71
 #: pages/backup.php:92 pages/backup.php:103 pages/editor.php:309
 #: pages/editor.php:321
 msgid "OK"
-msgstr ""
+msgstr "У реду"
 
 #: pages/general.php:46
 msgid "part, or if that does not help you can write your question in the"
 msgstr ""
+"са честим питањима, или ако то не помогне, можете да напишете своје питање у"
 
 #: my-style-anytime.php:312
 msgid "Premium Tools for WordPress made by"
-msgstr ""
+msgstr "Премиум алати за ВордПрес направљени од стране"
 
 #: my-style-anytime.php:250
 msgid "Ratings"
-msgstr ""
+msgstr "Оцене"
 
 #: pages/security.php:18
 msgid "Remove meta generator"
-msgstr ""
+msgstr "Уклоните мета генератор"
 
 #: pages/customization.php:18
 msgid "Remove WordPress from the title"
-msgstr ""
+msgstr "Уклоните ВордПрес из наслова"
 
 #: pages/security.php:59
 msgid ""
 "Removing the meta generator, helps you to hide the version of WordPress that "
 "you are using from potential attackers."
 msgstr ""
+"Уклањање мета генератора помаже вам да сакријете верзију ВордПрес-а коју "
+"користите од потенцијалних нападача."
 
 #: pages/backup.php:69
 msgid "Restore Failed"
-msgstr ""
+msgstr "Враћање није успело"
 
 #: pages/backup.php:307
 msgid "Restore Styles"
-msgstr ""
+msgstr "Враћање Стиловa"
 
 #: pages/backup.php:62
 msgid "Restore Successful"
-msgstr ""
+msgstr "Враћање је успешно"
 
 #: pages/customization.php:46 pages/security.php:45 pages/settings.php:45
 msgid "Save"
-msgstr ""
+msgstr "Сачувај"
 
 #: pages/editor.php:196
 msgid "Save Changes"
-msgstr ""
+msgstr "Сачувај измене"
 
 #: pages/customization.php:59
 msgid "Save Changes?"
-msgstr ""
+msgstr "Сачувај измене?"
 
 #: my-style-anytime.php:145 pages/security.php:39
 msgid "Security"
-msgstr ""
+msgstr "Безбедност"
 
 #: pages/editor.php:102
 msgid ""
 "Select below the CSS file who want to edit, and after complete just click on "
 "the button to submit the change."
 msgstr ""
+"Изаберите испод ЦСС датотеку коју желите да уредите, а након завршетка само "
+"кликните на дугме да пошаљете измену."
 
 #: my-style-anytime.php:154 pages/settings.php:39
 msgid "Settings"
-msgstr ""
+msgstr "Подешавања"
 
 #: pages/backup.php:40
 msgid "Styles successfully backed up."
-msgstr ""
+msgstr "Сигурносна копија стилова је успешно направљена."
 
 #: pages/backup.php:63
 msgid "Styles successfully restored."
-msgstr ""
+msgstr "Стилови су успешно враћени."
 
 #: pages/editor.php:307
 msgid "Success"
-msgstr ""
+msgstr "Успешно"
 
 #: pages/general.php:47
+#| msgid "support sections."
 msgid "support sections"
-msgstr ""
+msgstr "одељцима за подршку"
 
 #: pages/backup.php:91
 msgid "The backup file was successfully deleted."
-msgstr ""
+msgstr "Датотека резервне копије је успешно избрисана."
 
 #: pages/editor.php:46
 msgid ""
 "The CSS file was not found because it does not exist, you can generate it by "
 "clicking on the paint roller icon."
 msgstr ""
+"ЦСС датотека није пронађена јер не постоји, можете је генерисати кликом на "
+"икону ваљка за фарбање."
 
 #: pages/editor.php:308
 msgid "The file was updated successfully!"
-msgstr ""
+msgstr "Датотека је успешно ажурирана!"
 
 #: my-style-anytime.php:322
+#| msgid "Version: "
 msgid "Version"
-msgstr ""
+msgstr "Верзија"
 
 #: pages/editor.php:166 pages/editor.php:178
 msgid "Visitor Style"
-msgstr ""
+msgstr "Посетилац стил"
 
 #: pages/general.php:32
 msgid "We are honored that you decided to use our plugin."
-msgstr ""
+msgstr "Почаствовани смо што сте одлучили да користите наш додатак."
 
 #: pages/general.php:50
 msgid ""
 "We would be very pleased if you supported the advancement of this plugin "
 "with your "
-msgstr ""
+msgstr "Биће нам веома драго ако подржите унапређење овог додатка својом"
 
 #: pages/general.php:29
 msgid "Welcome"
-msgstr ""
+msgstr "Добродошли"
 
 #: my-style-anytime.php:314
 msgid "with"
-msgstr ""
+msgstr "са"
 
 #: pages/settings.php:59
 msgid ""
 "With this, you Disable Gutenberg on your site and back to the classic editor,"
 " no matter where you are."
 msgstr ""
+"Овим ћете онемогућити Гутенберга на свом сајту и вратити се у класични "
+"уређивач, без обзира где се налазите."
 
 #: pages/customization.php:63
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: pages/backup.php:338
 msgid "Yes, delete it!"
-msgstr ""
+msgstr "Да, избришите!"
