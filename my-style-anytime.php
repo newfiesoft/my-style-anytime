@@ -4,15 +4,15 @@
 Plugin Name: My Style Anytime
 Plugin URI: https://newfiesoft.com/wp-plugins/my-style-anytime/
 
-Description: Create and customize user front public or back wp-admin and responsive using the same CSS style sheets file based on user types of rules.
+Description: Customize public frontend or admin backend wp-admin with responsive using the same CSS stylesheets file based on user roles type
 
-Version: 1.4.0
+Version: 1.4.1
 Author: NewfieSoft
 Author URI: https://www.newfiesoft.com
 Donate link: https://newfiesoft.com/donate
 
 Text Domain: my-style-anytime
-Domain Path: /languages/
+Domain Path: /languages
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -102,13 +102,14 @@ add_action('plugins_loaded', 'mmysat_plugin_load_text_domain');
 
 //// This configures menu name and sub names.
 function mysat_active_admin_menu(): void {
+
 add_menu_page(
 	'General',
 	__('My Style Anytime', 'my-style-anytime'), // Menu Title;
 	'activate_plugins',
 	'my-style-anytime', // ID
 	'mysat_render_general_page',
-	'my-style-anytime-icon', // Make sure this icon slug matches your custom icon's registration.
+	'my-style-anytime', // Make sure this icon slug matches your custom icon's registration.
 	999
 );
 
@@ -168,7 +169,7 @@ add_submenu_page( // BackUp button
 
 }
 
-add_action('admin_menu', 'mysat_active_admin_menu');
+add_action('admin_menu', 'mysat_active_admin_menu', 999);
 
 
 // Load functions on both admin and front-end

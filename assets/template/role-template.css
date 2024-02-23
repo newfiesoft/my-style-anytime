@@ -5,13 +5,13 @@
  * @URL: https://newfiesoft.com/wp-plugins/my-style-anytime/
  * 
  *  
- * This is the style for rules {$name}
+ * This is the style for roles {$name}
  *
- * @Rules: {$name}
+ * @Roles: {$name}
  *
  */
 
-/* To import visitor style in this user @Rules type
+/* To import visitor style in this user @Roles type
 @import "visitor-style.css";
  */
 
@@ -33,7 +33,7 @@
 
 /*#########################################################################*/
 
-/*=== Start Responsive configurations for this rules user type ===*/
+/*=== Start Responsive configurations for this roles user type ===*/
 
 /*=| ##### Desktop screen resolution ##### |=*/
 
@@ -195,6 +195,6 @@
 /* End media max-width: 390px */
 
 
-/*=== End Responsive configurations for this rules user type ===*/
+/*=== End Responsive configurations for this roles user type ===*/
 
 /*#########################################################################*/

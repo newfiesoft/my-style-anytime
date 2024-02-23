@@ -5,7 +5,7 @@ Load functions for the back side that display inside the admin panels. Example /
  ***/
 
 
-//// Check the current user rules type and if it matches return with the user rules CSS file on the back side like /wp-admin/
+//// Check the current user roles type and if it matches return with the user roles CSS file on the back side like /wp-admin/
 function mysat_back_get_current_user_roles_style(): void {
 
 	// Get the current user
@@ -37,7 +37,7 @@ function mysat_back_get_current_user_roles_style(): void {
 add_action('admin_enqueue_scripts', 'mysat_back_get_current_user_roles_style');
 
 
-//// Generate css file for the user rules type who does not have or user rules are new inside wp_user_roles
+//// Generate css file for the user roles type who does not have or user roles are new inside wp_user_roles
 function mysat_back_get_generate_css_file($role_slug, $role_name): void {
 
 	// Your file generation logic here
@@ -76,9 +76,9 @@ function mysat_back_get_generate_css_file($role_slug, $role_name): void {
 		if ($role_slug === 'visitor') {
 			// Replace both occurrences directly for visitors
 			$template_content_visitor = str_replace( array(
-				'This is the style for rules {$name}',
-				'@Rules: {$name}'
-			), array( 'This is the style for rules Visitor', '@Rules: Visitor' ), $template_content_visitor );
+				'This is the style for roles {$name}',
+				'@Roles: {$name}'
+			), array( 'This is the style for roles Visitor', '@Roles: Visitor' ), $template_content_visitor );
 
 			// Write content to the file for visitor style
 			$wp_filesystem->put_contents($full_css_file_path, $template_content_visitor, FS_CHMOD_FILE);

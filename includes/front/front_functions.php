@@ -5,7 +5,7 @@ Load functions for front-side displays outside the admin panels. Example domain.
  ***/
 
 
-//// Check the current user rules type and if matches return with user rules CSS file on the front side like domain.com
+//// Check the current user roles type and if matches return with user roles CSS file on the front side like domain.com
 function mysat_front_get_current_user_roles_style(): void {
 
 	// Get the current user
@@ -36,7 +36,7 @@ function mysat_front_get_current_user_roles_style(): void {
 add_action('wp_enqueue_scripts', 'mysat_front_get_current_user_roles_style');
 
 
-//// If there are no user rules to detect, use this to show the visitor CSS file
+//// If there are no user roles to detect, use this to show the visitor CSS file
 function mysat_get_visitor_style(): void {
 
 	// Get plugin dir URL

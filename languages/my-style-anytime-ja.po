@@ -11,49 +11,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-02-21 20:46+0000\n"
-"PO-Revision-Date: 2024-02-22 00:57+0000\n"
+"PO-Revision-Date: 2024-02-22 21:35+0000\n"
 "X-Domain: my-style-anytime\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.6; wp-6.4.3"
 
-#: pages/backup.php:333
+#: pages/backup.php:340
 msgid "After deleting you are not able to revert this file!"
 msgstr "削除すると、このファイルを元に戻すことはできません。"
 
-#: pages/customization.php:60
+#: pages/customization.php:60 pages/security.php:60 pages/settings.php:60
 msgid "Are you sure you want to save changes?"
 msgstr "変更を保存してもよろしいですか?"
 
-#: pages/backup.php:332
+#: pages/backup.php:339
 msgid "Are you sure?"
 msgstr "本気ですか？"
 
 #: pages/general.php:33
 msgid ""
-"As you read before installing and activating this plugin with him, you have "
-"the possibility to create a custom CSS view using user rules."
+"As you read before installing and activating this plugin with him, you can "
+"create a custom CSS view using user roles."
 msgstr ""
-"このプラグインをインストールしてアクティブ化する前に読んでいただいたように、ユーザー ルールを使用してカスタム CSS ビューを作成することができます。"
+"このプラグインをインストールしてアクティブ化する前に読んでいただいたように、ユーザー ロールを使用してカスタム CSS ビューを作成できます。"
 
 #: my-style-anytime.php:163
 msgid "Backup"
 msgstr "バックアップ"
 
-#: pages/backup.php:274
+#: pages/backup.php:280
 msgid "Backup / Restore"
 msgstr "復元する"
 
-#: pages/backup.php:282
+#: pages/backup.php:288
 msgid "Backup Styles"
 msgstr "バックアップスタイル"
 
-#: pages/backup.php:39
+#: pages/backup.php:40
 msgid "Backup Successful"
 msgstr "バックアップ成功"
 
-#: pages/backup.php:339 pages/customization.php:64
+#: pages/backup.php:346 pages/customization.php:66 pages/security.php:66
+#: pages/settings.php:66
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -65,27 +66,27 @@ msgstr "コードエディタ"
 msgid "Community Support"
 msgstr "コミュニティサポート"
 
-#. Description of the plugin
-msgid ""
-"Create and customize user front public or back wp-admin and responsive using "
-"the same CSS style sheets file based on user types of rules."
-msgstr ""
-"ユーザーのルールのタイプに基づいて、同じ CSS スタイル シート ファイルを使用して、ユーザー フロント パブリックまたはバック wp-admin "
-"とレスポンシブを作成およびカスタマイズします。"
-
 #: my-style-anytime.php:136 pages/customization.php:39
 msgid "Customization"
 msgstr "カスタマイズ"
 
-#: pages/backup.php:314
+#. Description of the plugin
+msgid ""
+"Customize public frontend or admin backend wp-admin with responsive using "
+"the same CSS stylesheets file based on user roles type"
+msgstr ""
+"ユーザーの役割タイプに基づいて同じ CSS スタイルシート ファイルを使用して、パブリック フロントエンドまたは管理バックエンド wp-admin "
+"をレスポンシブでカスタマイズします"
+
+#: pages/backup.php:320
 msgid "Delete"
 msgstr "消去"
 
-#: pages/backup.php:101
+#: pages/backup.php:106
 msgid "Delete Failed"
 msgstr "削除に失敗しました"
 
-#: pages/backup.php:90
+#: pages/backup.php:94
 msgid "Delete Successful"
 msgstr "削除に成功しました"
 
@@ -101,23 +102,23 @@ msgstr "寄付"
 msgid "Enjoy your work"
 msgstr "仕事を楽しんでください"
 
-#: pages/editor.php:319
+#: pages/editor.php:321
 msgid "Error"
 msgstr "エラー"
 
-#: pages/editor.php:320
+#: pages/editor.php:322
 msgid "Error updating file: "
 msgstr "ファイルの更新中にエラーが発生しました:"
 
-#: pages/backup.php:47
+#: pages/backup.php:48
 msgid "Failed to create a backup."
 msgstr "バックアップの作成に失敗しました。"
 
-#: pages/backup.php:102
+#: pages/backup.php:107
 msgid "Failed to delete backup file."
 msgstr "バックアップファイルの削除に失敗しました。"
 
-#: pages/backup.php:70
+#: pages/backup.php:73
 msgid "Failed to restore styles."
 msgstr "スタイルの復元に失敗しました。"
 
@@ -129,7 +130,7 @@ msgstr "よくある質問"
 msgid "For help, you have our "
 msgstr "サポートが必要な場合は、"
 
-#: pages/customization.php:85
+#: pages/customization.php:88
 msgid ""
 "From the website title displayed in a browser tab and dashboard, and wp-"
 "login.php for enhanced branding and security."
@@ -148,7 +149,7 @@ msgstr "CSS ファイルを生成する"
 msgid "Generate Visitor CSS File"
 msgstr "訪問者CSSファイルの生成"
 
-#: pages/backup.php:276
+#: pages/backup.php:282
 msgid ""
 "Here you can create a backup anytime for all styles that you create and "
 "restore, all archive files have been storage inside"
@@ -173,11 +174,11 @@ msgid ""
 msgstr "このプラグインが気に入っていただけましたら、評価とフィードバックをいただければ幸いです。"
 
 #. FontAwesome heart icon
-#: my-style-anytime.php:316
+#: my-style-anytime.php:315
 msgid "in Zürich, Switzerland"
 msgstr "スイス、チューリッヒにて"
 
-#: pages/backup.php:296
+#: pages/backup.php:302
 msgid "List Backup zip files"
 msgstr "バックアップ zip ファイルの一覧表示"
 
@@ -194,9 +195,9 @@ msgstr "My Style Anytime"
 msgid "NewfieSoft"
 msgstr "NewfieSoft"
 
-#: pages/backup.php:41 pages/backup.php:64 pages/backup.php:71
-#: pages/backup.php:92 pages/backup.php:103 pages/editor.php:309
-#: pages/editor.php:321
+#: pages/backup.php:42 pages/backup.php:66 pages/backup.php:74
+#: pages/backup.php:96 pages/backup.php:108 pages/editor.php:310
+#: pages/editor.php:323
 msgid "OK"
 msgstr "わかりました"
 
@@ -204,7 +205,7 @@ msgstr "わかりました"
 msgid "part, or if that does not help you can write your question in the"
 msgstr "の部分、またはそれが役に立たない場合は、"
 
-#: my-style-anytime.php:312
+#: my-style-anytime.php:311
 msgid "Premium Tools for WordPress made by"
 msgstr "WordPress 用プレミアム ツール"
 
@@ -220,25 +221,25 @@ msgstr "メタジェネレーターを削除する"
 msgid "Remove WordPress from the title"
 msgstr "タイトルからWordPressを削除"
 
-#: pages/security.php:59
+#: pages/security.php:88
 msgid ""
 "Removing the meta generator, helps you to hide the version of WordPress that "
 "you are using from potential attackers."
 msgstr "メタ ジェネレーターを削除すると、使用している WordPress のバージョンを潜在的な攻撃者から隠すことができます。"
 
-#: pages/backup.php:69
+#: pages/backup.php:72
 msgid "Restore Failed"
 msgstr "復元に失敗しました"
 
-#: pages/backup.php:307
+#: pages/backup.php:313
 msgid "Restore Styles"
 msgstr "スタイルを復元する"
 
-#: pages/backup.php:62
+#: pages/backup.php:64
 msgid "Restore Successful"
 msgstr "復元に成功しました"
 
-#: pages/customization.php:46 pages/security.php:45 pages/settings.php:45
+#: pages/customization.php:46 pages/security.php:46 pages/settings.php:46
 msgid "Save"
 msgstr "保存"
 
@@ -246,7 +247,7 @@ msgstr "保存"
 msgid "Save Changes"
 msgstr "変更内容を保存"
 
-#: pages/customization.php:59
+#: pages/customization.php:59 pages/security.php:59 pages/settings.php:59
 msgid "Save Changes?"
 msgstr "変更内容を保存？"
 
@@ -264,15 +265,15 @@ msgstr "CSS ファイルの下で編集するユーザーを選択し、完了�
 msgid "Settings"
 msgstr "設定"
 
-#: pages/backup.php:40
+#: pages/backup.php:41
 msgid "Styles successfully backed up."
 msgstr "スタイルは正常にバックアップされました。"
 
-#: pages/backup.php:63
+#: pages/backup.php:65
 msgid "Styles successfully restored."
 msgstr "スタイルは正常に復元されました。"
 
-#: pages/editor.php:307
+#: pages/editor.php:308
 msgid "Success"
 msgstr "成功"
 
@@ -280,7 +281,7 @@ msgstr "成功"
 msgid "support sections"
 msgstr "サポートセクション"
 
-#: pages/backup.php:91
+#: pages/backup.php:95
 msgid "The backup file was successfully deleted."
 msgstr "バックアップファイルは正常に削除されました。"
 
@@ -290,11 +291,11 @@ msgid ""
 "clicking on the paint roller icon."
 msgstr "CSS ファイルは存在しないため見つかりませんでした。ペイント ローラー アイコンをクリックすると生成できます。"
 
-#: pages/editor.php:308
+#: pages/editor.php:309
 msgid "The file was updated successfully!"
 msgstr "ファイルは正常に更新されました。"
 
-#: my-style-anytime.php:322
+#: my-style-anytime.php:321
 msgid "Version"
 msgstr "バージョン"
 
@@ -316,20 +317,20 @@ msgstr "皆様とともにこのプラグインの進歩をサポートしてい
 msgid "Welcome"
 msgstr "いらっしゃいませ"
 
-#: my-style-anytime.php:314
+#: my-style-anytime.php:313
 msgid "with"
 msgstr "と"
 
-#: pages/settings.php:59
+#: pages/settings.php:88
 msgid ""
 "With this, you Disable Gutenberg on your site and back to the classic editor,"
 " no matter where you are."
 msgstr "これにより、サイト上で Gutenberg を無効にし、どこにいてもクラシック エディターに戻ります。"
 
-#: pages/customization.php:63
+#: pages/customization.php:65 pages/security.php:65 pages/settings.php:65
 msgid "Yes"
 msgstr "はい"
 
-#: pages/backup.php:338
+#: pages/backup.php:345
 msgid "Yes, delete it!"
 msgstr "はい、削除してください!"

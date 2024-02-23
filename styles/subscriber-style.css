@@ -5,16 +5,16 @@
  * @URL: https://newfiesoft.com/wp-plugins/my-style-anytime/
  * 
  *  
- * This is style for rules Subscriber
+ * This is style for roles Subscriber
  *
- * @Rules: Subscriber
+ * @Roles: Subscriber
  *
  * @Plugin style name: WordPress
  * @URL: https://wordpress.org/support/article/roles-and-capabilities/
  * 
  */
 
-/* To import visitor style in this user @Rules type
+/* To import visitor style in this user @Roles type
 @import "visitor-style.css";
  */
 
@@ -33,7 +33,7 @@
 
 /*=== Front Styles ===*/
 
-/* Standard WordPress User rules style example */
+/* Standard WordPress User roles style example */
 
 .hello-administrator {
     display: none;
@@ -60,7 +60,7 @@
     display: none;
 }
 
-/* WooCommerce User rules style example */
+/* WooCommerce User roles style example */
 
 .hello-shop-manager {
     display: none;
@@ -70,13 +70,13 @@
     display: none;
 }
 
-/* Loco Translate User rules style example */
+/* Loco Translate User roles style example */
 
 .hello-translator {
     display: none;
 }
 
-/* Yoast SEO User rules style example */
+/* Yoast SEO User roles style example */
 
 .hello-seo-manager {
     display: none;
@@ -86,7 +86,7 @@
     display: none;
 }
 
-/* YITH Affiliates User rules style example */
+/* YITH Affiliates User roles style example */
 
 .hello-affiliates {
     display: none;
@@ -94,7 +94,7 @@
 
 /*#########################################################################*/
 
-/*=== Start Responsive configurations for this rules user type ===*/
+/*=== Start Responsive configurations for this roles user type ===*/
 
 /*=| ##### Desktop screen resolution ##### |=*/
 
@@ -256,6 +256,6 @@
 /* End media max-width: 390px */
 
 
-/*=== End Responsive configurations for this rules user type ===*/
+/*=== End Responsive configurations for this roles user type ===*/
 
 /*#########################################################################*/

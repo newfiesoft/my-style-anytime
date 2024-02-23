@@ -30,7 +30,7 @@ function mysat_render_general_page(): void {
         <hr>
         <p style="padding-top:10px;"><?php esc_html_e( 'Hi,', 'my-style-anytime' ); ?></p>
         <p><?php esc_html_e( 'We are honored that you decided to use our plugin.', 'my-style-anytime' ); ?></p>
-        <p><?php esc_html_e( 'As you read before installing and activating this plugin with him, you have the possibility to create a custom CSS view using user rules.', 'my-style-anytime' ); ?></p>
+        <p><?php esc_html_e( 'As you read before installing and activating this plugin with him, you can create a custom CSS view using user roles.', 'my-style-anytime' ); ?></p>
         <p><?php esc_html_e( 'If you like this plugin it would be nice from your side to give us your rating and feedback.', 'my-style-anytime' ); ?>
             <a href="https://wordpress.org/support/plugin/my-style-anytime/reviews/#new-post" target="_blank" class="rate-star-filled">
                 <i class="fa-regular fa-star"></i>
