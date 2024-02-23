@@ -2,19 +2,14 @@
 
 **<p align="center">Welcome to the My Style Anytime WordPress PLugin GitHub repository.</p>**
 
-<p><a href="https://wordpress.org/plugins/my-style-anytime/"><img src="[[https://ps.w.org/my-style-anytime/assets/screenshot-3.png]"></a></p>
-
-
 ## Description
-Create and customize user front public or back wp-admin and responsive using the same <strong>CSS style sheets</strong> file based on user types of rules.
+Revolutionize your WordPress development with our innovative plugin role-based CSS customization feature. Seamlessly customize both the public frontend and admin backend (wp-admin) using a single CSS file, intelligently tailored to different user roles.
 
-It Is very useful among Frontend Developers, who work to create many style combinations on <strong>Frontend</strong> (public/visitor/guest view).
+This powerful tool empowers developers to create unique style combinations for each user role, ensuring a personalized experience for administrators, editors, authors, contributors, subscribers, and even visitors/guests.
 
-But at the same time as you can customize the front view, ask if you can customize what and how your <strong>Backend</strong> (wp-admin). Of any user rules type who can access and get a different style.
+The simplicity of using one CSS file for both frontend and backend eliminates redundancy and enhances consistency in design. Efficiency meets flexibility as you effortlessly manage updates, bug fixes, and improvements through a centralized CSS file. Say goodbye to the hassle of duplicating efforts – our feature simplifies the development process, making it easy to maintain and adapt styles across your entire WordPress site.
 
-At the same time, you can do responsive design on the same CSS file rule.
-
-For testing our plugin how can create a custom CSS user rules style, and WordPress basic user rules type we use independent popular WordPress plugins that have his self user rules such as at this moment [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), and [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/). If you have any suggestions please post inside the support topic [Suggest a plugin that adds his role inside users](https://wordpress.org/support/topic/suggest-a-plugin-that-adds-his-role-inside-users/).
+To test our plugin with different user roles and [WordPress](https://wordpress.org/documentation/article/roles-and-capabilities/#roles) basic user types, we've integrated it seamlessly with independent and widely-used WordPress plugins, each having its set of user roles. Currently, our plugin supports popular plugins like [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), and [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/).
 
 ## Features
 
@@ -28,6 +23,8 @@ For testing our plugin how can create a custom CSS user rules style, and WordPre
 - Disable the meta generator.
 - Remove "WordPress" from the title on any case scenario and on all available Site Language inside WordPress settings.
 
+## Screenshot
+<p><a href="https://wordpress.org/plugins/my-style-anytime/"><img src="https://ps.w.org/my-style-anytime/assets/screenshot-3.png" alt="My Style Anytime"></a></p>
 
 ## Be a Community contributions
 We are always welcome and help us to work together, feel free to answer questions on GitHub and within the communities.
