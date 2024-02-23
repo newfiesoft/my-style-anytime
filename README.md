@@ -46,4 +46,4 @@ Please **DO NOT** open issues for general support questions as we want to keep G
 
 ## Join us and give us feedback
 - If you like this plugin [My Style Anytime](https://wordpress.org/plugins/my-style-anytime/), share your experience and [Ratings with us](https://wordpress.org/support/plugin/my-style-anytime/reviews/#new-post).
-- Would you like to support the advancement of this plugin? [Donate](https://newfiesoft.com/donate/) to this plugin.
+- Would you like to support the advancement of this plugin? you can Sponsor us on [GitHub](https://github.com/sponsors/newfiesoft) or you can visit our [Donate](https://newfiesoft.com/donate/) page.
