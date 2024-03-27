@@ -6,7 +6,7 @@ Plugin URI: https://newfiesoft.com/wp-plugins/my-style-anytime/
 
 Description: Customize public frontend or admin backend wp-admin with responsive using the same CSS stylesheets file based on user roles type
 
-Version: 1.4.1
+Version: 1.5.0
 Author: NewfieSoft
 Author URI: https://www.newfiesoft.com
 Donate link: https://newfiesoft.com/donate
@@ -27,60 +27,60 @@ require_once ABSPATH . 'wp-admin/includes/plugin.php';
 
 
 //// Get plugin dirname basename how can just call this short in all current and future functions
-if (!function_exists('get_my_style_anytime_directory_name')) {
-function get_my_style_anytime_directory_name(): string {
+if (!function_exists('my_style_anytime_directory_name')) {
+function my_style_anytime_directory_name(): string {
 	return dirname(plugin_basename(__FILE__));
 	}
 }
 
-$plugin_dirname = get_my_style_anytime_directory_name();
+$plugin_dirname = my_style_anytime_directory_name();
 //echo $plugin_dirname . "\n"; //==> result is my-style-anytime
 
 
 //// Get plugin basename how can just call this short in all current and future functions
-if (!function_exists('get_my_style_anytime_directory')) {
-function get_my_style_anytime_directory(): string {
+if (!function_exists('my_style_anytime_directory')) {
+function my_style_anytime_directory(): string {
 	return plugin_basename(__FILE__);
 	}
 }
 
-$plugin_basename = get_my_style_anytime_directory();
+$plugin_basename = my_style_anytime_directory();
 //echo $plugin_basename . "\n"; //==> result is my-style-anytime/my-style-anytime.php
 
 
 //// Get plugin dir name how can just call this short in all current and future functions
-if (!function_exists('get_my_style_anytime_plugin_dir_path')) {
-function get_my_style_anytime_plugin_dir_path(): string {
+if (!function_exists('my_style_anytime_plugin_dir_path')) {
+function my_style_anytime_plugin_dir_path(): string {
 	return plugin_dir_path( __FILE__ );
 	}
 }
 
-$plugin_dir_path = get_my_style_anytime_plugin_dir_path();
+$plugin_dir_path = my_style_anytime_plugin_dir_path();
 //echo $plugin_dir_path . "\n"; //==> /home/username/public_html/wp-content/plugins/my-style-anytime/
 
 
 //// Get plugin dir url name how can just call this short in all current and future functions
-if (!function_exists('get_my_style_anytime_directory_url')) {
-function get_my_style_anytime_directory_url(): string {
+if (!function_exists('my_style_anytime_directory_url')) {
+function my_style_anytime_directory_url(): string {
 	return plugin_dir_url(__FILE__);
 	}
 }
 
-$plugin_dir_url = get_my_style_anytime_directory_url();
+$plugin_dir_url = my_style_anytime_directory_url();
 //echo $plugin_dir_url . "\n"; //==> result is https://newfiesoft.com/wp-content/plugins/my-style-anytime/
 
 
 //// Get plugin data how can just call this short in all current and future functions
-if (!function_exists('get_my_style_anytime_plugin_data')) {
-function get_my_style_anytime_plugin_data(): array {
+if (!function_exists('my_style_anytime_plugin_data')) {
+function my_style_anytime_plugin_data(): array {
 
-	$plugin_main_file = get_my_style_anytime_plugin_dir_path() . 'my-style-anytime.php';
+	$plugin_main_file = my_style_anytime_plugin_dir_path() . 'my-style-anytime.php';
 
 	return get_plugin_data($plugin_main_file);
 	}
 }
 
-$plugin_plugin_data = get_my_style_anytime_plugin_data();
+$plugin_plugin_data = my_style_anytime_plugin_data();
 //var_dump($plugin_plugin_data); //==> sho plugin informations like Name, PluginURI, Version and many more
 
 
@@ -91,7 +91,7 @@ $plugin_plugin_data = get_my_style_anytime_plugin_data();
 function mmysat_plugin_load_text_domain(): void {
 
 // Get plugin dirname basename
-$plugin_dirname = get_my_style_anytime_directory_name();
+$plugin_dirname = my_style_anytime_directory_name();
 
 // Load the plugin text domain
 load_plugin_textdomain('my-style-anytime', false, $plugin_dirname . '/languages');
@@ -236,7 +236,7 @@ add_filter( 'plugin_action_links_' . $plugin_basename, 'mysat_custom_link_option
 function mysat_custom_link_action_plugin( $links_array, $mysat_plugin_name ) {
 
 	// Get plugin basename
-	$plugin_basename = get_my_style_anytime_directory();
+	$plugin_basename = my_style_anytime_directory();
 
 	if ( $mysat_plugin_name === $plugin_basename ) {
 
@@ -268,10 +268,10 @@ add_filter( 'plugin_row_meta', 'mysat_custom_link_action_plugin', 10, 4 );
 function mysat_customize_admin_footer_script(): void {
 
 	// Get plugin dir url name
-	$plugin_dir_url = get_my_style_anytime_directory_url();
+	$plugin_dir_url = my_style_anytime_directory_url();
 
 	// Get plugin data
-	$plugin_plugin_data = get_my_style_anytime_plugin_data();
+	$plugin_plugin_data = my_style_anytime_plugin_data();
 
 	// Get My plugin version
 	if ( ! function_exists( 'get_plugin_data' ) ) {

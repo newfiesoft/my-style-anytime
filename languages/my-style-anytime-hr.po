@@ -1,0 +1,352 @@
+# Copyright (C) 2023 NewfieSoft
+# This file is distributed under the same license as the My Style Anytime plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Style Anytime\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-style-"
+"anytime/\n"
+"Last-Translator: \n"
+"Language-Team: Croatian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-21 20:46+0000\n"
+"PO-Revision-Date: 2024-02-22 21:34+0000\n"
+"X-Domain: my-style-anytime\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
+
+#: pages/backup.php:340
+msgid "After deleting you are not able to revert this file!"
+msgstr "Nakon brisanja ne možete vratiti ovu datoteku!"
+
+#: pages/customization.php:60 pages/security.php:60 pages/settings.php:60
+msgid "Are you sure you want to save changes?"
+msgstr "Jeste li sigurni da želite spremiti promjene?"
+
+#: pages/backup.php:339
+msgid "Are you sure?"
+msgstr "Jesi li siguran?"
+
+#: pages/general.php:33
+msgid ""
+"As you read before installing and activating this plugin with him, you can "
+"create a custom CSS view using user roles."
+msgstr ""
+"Kao što ste pročitali prije instaliranja i aktivacije ovog dodatka s njim, "
+"možete stvoriti prilagođeni CSS prikaz pomoću korisničkih uloga."
+
+#: my-style-anytime.php:163
+msgid "Backup"
+msgstr "Sigurnosna kopija"
+
+#: pages/backup.php:280
+msgid "Backup / Restore"
+msgstr "Sigurnosno kopiranje / vraćanje"
+
+#: pages/backup.php:288
+msgid "Backup Styles"
+msgstr "Sigurnosni stilovi"
+
+#: pages/backup.php:40
+msgid "Backup Successful"
+msgstr "Sigurnosno kopiranje uspješno"
+
+#: pages/backup.php:346 pages/customization.php:66 pages/security.php:66
+#: pages/settings.php:66
+msgid "Cancel"
+msgstr "Otkažati"
+
+#: pages/editor.php:100
+msgid "Code Editor"
+msgstr "Uređivač koda"
+
+#: my-style-anytime.php:248
+msgid "Community Support"
+msgstr "Podrška zajednice"
+
+#: my-style-anytime.php:136 pages/customization.php:39
+msgid "Customization"
+msgstr "Prilagodba"
+
+#. Description of the plugin
+msgid ""
+"Customize public frontend or admin backend wp-admin with responsive using "
+"the same CSS stylesheets file based on user roles type"
+msgstr ""
+"Prilagodite javno sučelje ili administratorsku pozadinu wp-admin s "
+"odgovarajućim korištenjem iste CSS datoteke stilova na temelju vrste "
+"korisničkih uloga"
+
+#: pages/backup.php:320
+msgid "Delete"
+msgstr "Izbrisati"
+
+#: pages/backup.php:106
+msgid "Delete Failed"
+msgstr "Brisanje nije uspjelo"
+
+#: pages/backup.php:94
+msgid "Delete Successful"
+msgstr "Uspješno brisanje"
+
+#: pages/settings.php:18
+msgid "Disable Gutenberg Editor"
+msgstr "Onemogući Gutenberg Editor"
+
+#: pages/general.php:51
+msgid "donation"
+msgstr "donacija"
+
+#: pages/general.php:55
+msgid "Enjoy your work"
+msgstr "Uživajte u svom radu"
+
+#: pages/editor.php:321
+msgid "Error"
+msgstr "Greška"
+
+#: pages/editor.php:322
+msgid "Error updating file: "
+msgstr "Pogreška pri ažuriranju datoteke: "
+
+#: pages/backup.php:48
+msgid "Failed to create a backup."
+msgstr "Izrada sigurnosne kopije nije uspjela."
+
+#: pages/backup.php:107
+msgid "Failed to delete backup file."
+msgstr "Brisanje datoteke sigurnosne kopije nije uspjelo."
+
+#: pages/backup.php:73
+msgid "Failed to restore styles."
+msgstr "Vraćanje stilova nije uspjelo."
+
+#: my-style-anytime.php:249 pages/general.php:45
+msgid "FAQ"
+msgstr "često postavljana pitanja"
+
+#: pages/general.php:44
+msgid "For help, you have our "
+msgstr "Za pomoć, imate naše"
+
+#: pages/customization.php:88
+msgid ""
+"From the website title displayed in a browser tab and dashboard, and wp-"
+"login.php for enhanced branding and security."
+msgstr ""
+"Od naslova web stranice prikazanog na kartici preglednika i nadzornoj ploči "
+"te wp-login.php za poboljšanu marku i sigurnost."
+
+#: my-style-anytime.php:118 my-style-anytime.php:219
+msgid "General"
+msgstr "Općenito"
+
+#: pages/editor.php:146
+msgid "Generate CSS File for"
+msgstr "Generiraj CSS datoteku za"
+
+#: pages/editor.php:169
+msgid "Generate Visitor CSS File"
+msgstr "Generirajte CSS datoteku posjetitelja"
+
+#: pages/backup.php:282
+msgid ""
+"Here you can create a backup anytime for all styles that you create and "
+"restore, all archive files have been storage inside"
+msgstr ""
+"Ovdje možete stvoriti sigurnosnu kopiju bilo kada za sve stilove koje "
+"stvorite i vratite, sve arhivske datoteke su pohranjene unutra"
+
+#: pages/general.php:31
+msgid "Hi,"
+msgstr "Bok,"
+
+#. URI of the plugin
+msgid "https://newfiesoft.com/wp-plugins/my-style-anytime/"
+msgstr "https://newfiesoft.com/wp-plugins/my-style-anytime/"
+
+#. Author URI of the plugin
+msgid "https://www.newfiesoft.com"
+msgstr "https://www.newfiesoft.com"
+
+#: pages/general.php:34
+msgid ""
+"If you like this plugin it would be nice from your side to give us your "
+"rating and feedback."
+msgstr ""
+"Ako vam se sviđa ovaj dodatak, bilo bi lijepo s vaše strane da nam date "
+"svoju ocjenu i povratne informacije."
+
+#. FontAwesome heart icon
+#: my-style-anytime.php:315
+msgid "in Zürich, Switzerland"
+msgstr "u Zürichu, Švicarska"
+
+#: pages/backup.php:302
+msgid "List Backup zip files"
+msgstr "Popis sigurnosnih kopija zip datoteka"
+
+#: my-style-anytime.php:127
+msgid "Manage Style"
+msgstr "Upravljanje stilom"
+
+#. Name of the plugin
+#: my-style-anytime.php:107
+msgid "My Style Anytime"
+msgstr "My Style Anytime"
+
+#. Author of the plugin
+msgid "NewfieSoft"
+msgstr "NewfieSoft"
+
+#: pages/backup.php:42 pages/backup.php:66 pages/backup.php:74
+#: pages/backup.php:96 pages/backup.php:108 pages/editor.php:310
+#: pages/editor.php:323
+msgid "OK"
+msgstr "U redu"
+
+#: pages/general.php:46
+msgid "part, or if that does not help you can write your question in the"
+msgstr "dio, ili ako to ne pomogne, možete napisati svoje pitanje u"
+
+#: my-style-anytime.php:311
+msgid "Premium Tools for WordPress made by"
+msgstr "Vrhunski alati za WordPress izradio"
+
+#: my-style-anytime.php:250
+msgid "Ratings"
+msgstr "Ocjene"
+
+#: pages/security.php:18
+msgid "Remove meta generator"
+msgstr "Ukloni meta generator"
+
+#: pages/customization.php:18
+msgid "Remove WordPress from the title"
+msgstr "Uklonite WordPress iz naslova"
+
+#: pages/security.php:88
+msgid ""
+"Removing the meta generator, helps you to hide the version of WordPress that "
+"you are using from potential attackers."
+msgstr ""
+"Uklanjanje meta generatora pomaže vam da sakrijete verziju WordPressa koju "
+"koristite od potencijalnih napadača."
+
+#: pages/backup.php:72
+msgid "Restore Failed"
+msgstr "Vraćanje nije uspjelo"
+
+#: pages/backup.php:313
+msgid "Restore Styles"
+msgstr "Vrati stilove"
+
+#: pages/backup.php:64
+msgid "Restore Successful"
+msgstr "Vraćanje uspješno"
+
+#: pages/customization.php:46 pages/security.php:46 pages/settings.php:46
+msgid "Save"
+msgstr "Spremi"
+
+#: pages/editor.php:196
+msgid "Save Changes"
+msgstr "Spremi promjene"
+
+#: pages/customization.php:59 pages/security.php:59 pages/settings.php:59
+msgid "Save Changes?"
+msgstr "Spremi promjene?"
+
+#: my-style-anytime.php:145 pages/security.php:39
+msgid "Security"
+msgstr "Sigurnost"
+
+#: pages/editor.php:102
+msgid ""
+"Select below the CSS file who want to edit, and after complete just click on "
+"the button to submit the change."
+msgstr ""
+"Odaberite ispod CSS datoteke koju želite urediti, a nakon završetka samo "
+"kliknite na gumb za podnošenje promjene."
+
+#: my-style-anytime.php:154 pages/settings.php:39
+msgid "Settings"
+msgstr "Postavke"
+
+#: pages/backup.php:41
+msgid "Styles successfully backed up."
+msgstr "Stilovi su uspješno sigurnosno kopirani."
+
+#: pages/backup.php:65
+msgid "Styles successfully restored."
+msgstr "Stilovi su uspješno vraćeni."
+
+#: pages/editor.php:308
+msgid "Success"
+msgstr "Sspješno"
+
+#: pages/general.php:47
+msgid "support sections"
+msgstr "odjeljci za podršku"
+
+#: pages/backup.php:95
+msgid "The backup file was successfully deleted."
+msgstr "Datoteka sigurnosne kopije je uspješno izbrisana."
+
+#: pages/editor.php:46
+msgid ""
+"The CSS file was not found because it does not exist, you can generate it by "
+"clicking on the paint roller icon."
+msgstr ""
+"CSS datoteka nije pronađena jer ne postoji, možete je generirati klikom na "
+"ikonu valjka za bojanje."
+
+#: pages/editor.php:309
+msgid "The file was updated successfully!"
+msgstr "Datoteka je uspješno ažurirana!"
+
+#: my-style-anytime.php:321
+msgid "Version"
+msgstr "Verzija"
+
+#: pages/editor.php:166 pages/editor.php:178
+msgid "Visitor Style"
+msgstr "Stil posjetitelja"
+
+#: pages/general.php:32
+msgid "We are honored that you decided to use our plugin."
+msgstr "Čast nam je što ste odlučili koristiti naš dodatak."
+
+#: pages/general.php:50
+msgid ""
+"We would be very pleased if you supported the advancement of this plugin "
+"with your "
+msgstr "Bilo bi nam jako drago ako podržite napredak ovog dodatka svojim"
+
+#: pages/general.php:29
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: my-style-anytime.php:313
+msgid "with"
+msgstr "sa"
+
+#: pages/settings.php:88
+msgid ""
+"With this, you Disable Gutenberg on your site and back to the classic editor,"
+" no matter where you are."
+msgstr ""
+"Time ćete onemogućiti Gutenberg na svojoj stranici i vratiti se u klasični "
+"uređivač, bez obzira gdje se nalazite."
+
+#: pages/customization.php:65 pages/security.php:65 pages/settings.php:65
+msgid "Yes"
+msgstr "Da"
+
+#: pages/backup.php:345
+msgid "Yes, delete it!"
+msgstr "Da, izbriši!"

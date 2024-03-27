@@ -1,0 +1,354 @@
+# Copyright (C) 2023 NewfieSoft
+# This file is distributed under the same license as the My Style Anytime plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Style Anytime\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-style-"
+"anytime/\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-21 20:46+0000\n"
+"PO-Revision-Date: 2024-02-22 21:36+0000\n"
+"X-Domain: my-style-anytime\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
+
+#: pages/backup.php:340
+msgid "After deleting you are not able to revert this file!"
+msgstr "Na het verwijderen kunt u dit bestand niet meer terugdraaien!"
+
+#: pages/customization.php:60 pages/security.php:60 pages/settings.php:60
+msgid "Are you sure you want to save changes?"
+msgstr "Weet u zeker dat u de wijzigingen wilt opslaan?"
+
+#: pages/backup.php:339
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: pages/general.php:33
+msgid ""
+"As you read before installing and activating this plugin with him, you can "
+"create a custom CSS view using user roles."
+msgstr ""
+"Zoals je hebt gelezen voordat je deze plug-in bij hem installeert en "
+"activeert, kun je met behulp van gebruikersrollen een aangepaste CSS-"
+"weergave maken."
+
+#: my-style-anytime.php:163
+msgid "Backup"
+msgstr "Back-up"
+
+#: pages/backup.php:280
+msgid "Backup / Restore"
+msgstr "Back-up herstellen"
+
+#: pages/backup.php:288
+msgid "Backup Styles"
+msgstr "Back-upstijlen"
+
+#: pages/backup.php:40
+msgid "Backup Successful"
+msgstr "Back-up succesvol"
+
+#: pages/backup.php:346 pages/customization.php:66 pages/security.php:66
+#: pages/settings.php:66
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: pages/editor.php:100
+msgid "Code Editor"
+msgstr "Code-editor"
+
+#: my-style-anytime.php:248
+msgid "Community Support"
+msgstr "Maatschappelijke hulp"
+
+#: my-style-anytime.php:136 pages/customization.php:39
+msgid "Customization"
+msgstr "Maatwerk"
+
+#. Description of the plugin
+msgid ""
+"Customize public frontend or admin backend wp-admin with responsive using "
+"the same CSS stylesheets file based on user roles type"
+msgstr ""
+"Pas de openbare frontend of admin backend wp-admin aan met responsief "
+"gebruik van hetzelfde CSS-stylesheets-bestand op basis van het type "
+"gebruikersrollen"
+
+#: pages/backup.php:320
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: pages/backup.php:106
+msgid "Delete Failed"
+msgstr "Verwijderen mislukt"
+
+#: pages/backup.php:94
+msgid "Delete Successful"
+msgstr "Verwijderen succesvol"
+
+#: pages/settings.php:18
+msgid "Disable Gutenberg Editor"
+msgstr "Schakel de Gutenberg-editor uit"
+
+#: pages/general.php:51
+msgid "donation"
+msgstr "bijdrage"
+
+#: pages/general.php:55
+msgid "Enjoy your work"
+msgstr "Geniet van je werk"
+
+#: pages/editor.php:321
+msgid "Error"
+msgstr "Fout"
+
+#: pages/editor.php:322
+msgid "Error updating file: "
+msgstr "Fout bij updaten van bestand: "
+
+#: pages/backup.php:48
+msgid "Failed to create a backup."
+msgstr "Kan geen back-up maken."
+
+#: pages/backup.php:107
+msgid "Failed to delete backup file."
+msgstr "Kan back-upbestand niet verwijderen."
+
+#: pages/backup.php:73
+msgid "Failed to restore styles."
+msgstr "Kan stijlen niet herstellen."
+
+#: my-style-anytime.php:249 pages/general.php:45
+msgid "FAQ"
+msgstr "FAQ"
+
+#: pages/general.php:44
+msgid "For help, you have our "
+msgstr "Voor hulp heeft u onze "
+
+#: pages/customization.php:88
+msgid ""
+"From the website title displayed in a browser tab and dashboard, and wp-"
+"login.php for enhanced branding and security."
+msgstr ""
+"Van de websitetitel die wordt weergegeven in een browsertabblad en dashboard,"
+" en wp-login.php voor verbeterde branding en beveiliging."
+
+#: my-style-anytime.php:118 my-style-anytime.php:219
+msgid "General"
+msgstr "Algemeen"
+
+#: pages/editor.php:146
+msgid "Generate CSS File for"
+msgstr "Genereer een CSS-bestand voor"
+
+#: pages/editor.php:169
+msgid "Generate Visitor CSS File"
+msgstr "Genereer een bezoekers-CSS-bestand"
+
+#: pages/backup.php:282
+msgid ""
+"Here you can create a backup anytime for all styles that you create and "
+"restore, all archive files have been storage inside"
+msgstr ""
+"Hier kunt u op elk gewenst moment een back-up maken van alle stijlen die u "
+"maakt en herstelt; alle archiefbestanden zijn daarin opgeslagen"
+
+#: pages/general.php:31
+msgid "Hi,"
+msgstr "Hoi,"
+
+#. URI of the plugin
+msgid "https://newfiesoft.com/wp-plugins/my-style-anytime/"
+msgstr "https://newfiesoft.com/wp-plugins/my-style-anytime/"
+
+#. Author URI of the plugin
+msgid "https://www.newfiesoft.com"
+msgstr "https://www.newfiesoft.com"
+
+#: pages/general.php:34
+msgid ""
+"If you like this plugin it would be nice from your side to give us your "
+"rating and feedback."
+msgstr ""
+"Als u deze plug-in leuk vindt, zou het leuk zijn als u ons uw beoordeling en "
+"feedback geeft."
+
+#. FontAwesome heart icon
+#: my-style-anytime.php:315
+msgid "in Zürich, Switzerland"
+msgstr "in Zürich, Zwitserland"
+
+#: pages/backup.php:302
+msgid "List Backup zip files"
+msgstr "Maak een lijst van back-up-zipbestanden"
+
+#: my-style-anytime.php:127
+msgid "Manage Style"
+msgstr "Beheer stijl"
+
+#. Name of the plugin
+#: my-style-anytime.php:107
+msgid "My Style Anytime"
+msgstr "My Style Anytime"
+
+#. Author of the plugin
+msgid "NewfieSoft"
+msgstr "NewfieSoft"
+
+#: pages/backup.php:42 pages/backup.php:66 pages/backup.php:74
+#: pages/backup.php:96 pages/backup.php:108 pages/editor.php:310
+#: pages/editor.php:323
+msgid "OK"
+msgstr "OK"
+
+#: pages/general.php:46
+msgid "part, or if that does not help you can write your question in the"
+msgstr "onderdeel, of als dat niet helpt, kunt u uw vraag in het"
+
+#: my-style-anytime.php:311
+msgid "Premium Tools for WordPress made by"
+msgstr "Premium Tools voor WordPress gemaakt door"
+
+#: my-style-anytime.php:250
+msgid "Ratings"
+msgstr "Waarderingen"
+
+#: pages/security.php:18
+msgid "Remove meta generator"
+msgstr "Metagenerator verwijderen"
+
+#: pages/customization.php:18
+msgid "Remove WordPress from the title"
+msgstr "Verwijder WordPress uit de titel"
+
+#: pages/security.php:88
+msgid ""
+"Removing the meta generator, helps you to hide the version of WordPress that "
+"you are using from potential attackers."
+msgstr ""
+"Door de metagenerator te verwijderen, kunt u de versie van WordPress die u "
+"gebruikt verbergen voor potentiële aanvallers."
+
+#: pages/backup.php:72
+msgid "Restore Failed"
+msgstr "Herstellen mislukt"
+
+#: pages/backup.php:313
+msgid "Restore Styles"
+msgstr "Stijlen herstellen"
+
+#: pages/backup.php:64
+msgid "Restore Successful"
+msgstr "Herstel succesvol"
+
+#: pages/customization.php:46 pages/security.php:46 pages/settings.php:46
+msgid "Save"
+msgstr "Redden"
+
+#: pages/editor.php:196
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: pages/customization.php:59 pages/security.php:59 pages/settings.php:59
+msgid "Save Changes?"
+msgstr "Wijzigingen opslaan?"
+
+#: my-style-anytime.php:145 pages/security.php:39
+msgid "Security"
+msgstr "Beveiliging"
+
+#: pages/editor.php:102
+msgid ""
+"Select below the CSS file who want to edit, and after complete just click on "
+"the button to submit the change."
+msgstr ""
+"Selecteer hieronder het CSS-bestand dat u wilt bewerken en klik na "
+"voltooiing op de knop om de wijziging door te geven."
+
+#: my-style-anytime.php:154 pages/settings.php:39
+msgid "Settings"
+msgstr "Instellingen"
+
+#: pages/backup.php:41
+msgid "Styles successfully backed up."
+msgstr "Er is een back-up van stijlen gemaakt."
+
+#: pages/backup.php:65
+msgid "Styles successfully restored."
+msgstr "Stijlen succesvol hersteld."
+
+#: pages/editor.php:308
+msgid "Success"
+msgstr "Succes"
+
+#: pages/general.php:47
+msgid "support sections"
+msgstr "ondersteunende secties"
+
+#: pages/backup.php:95
+msgid "The backup file was successfully deleted."
+msgstr "Het back-upbestand is succesvol verwijderd."
+
+#: pages/editor.php:46
+msgid ""
+"The CSS file was not found because it does not exist, you can generate it by "
+"clicking on the paint roller icon."
+msgstr ""
+"Het CSS-bestand is niet gevonden omdat het niet bestaat. U kunt het "
+"genereren door op het verfrollerpictogram te klikken."
+
+#: pages/editor.php:309
+msgid "The file was updated successfully!"
+msgstr "Het bestand is succesvol bijgewerkt!"
+
+#: my-style-anytime.php:321
+msgid "Version"
+msgstr "Versie"
+
+#: pages/editor.php:166 pages/editor.php:178
+msgid "Visitor Style"
+msgstr "Bezoekersstijl"
+
+#: pages/general.php:32
+msgid "We are honored that you decided to use our plugin."
+msgstr "We zijn vereerd dat je hebt besloten onze plug-in te gebruiken."
+
+#: pages/general.php:50
+msgid ""
+"We would be very pleased if you supported the advancement of this plugin "
+"with your "
+msgstr ""
+"Wij zouden het zeer op prijs stellen als u de ontwikkeling van deze plug-in "
+"met uw steun zou ondersteunen"
+
+#: pages/general.php:29
+msgid "Welcome"
+msgstr "Welkom"
+
+#: my-style-anytime.php:313
+msgid "with"
+msgstr "met"
+
+#: pages/settings.php:88
+msgid ""
+"With this, you Disable Gutenberg on your site and back to the classic editor,"
+" no matter where you are."
+msgstr ""
+"Hiermee schakel je Gutenberg op je site uit en terug naar de klassieke "
+"editor, waar je ook bent."
+
+#: pages/customization.php:65 pages/security.php:65 pages/settings.php:65
+msgid "Yes"
+msgstr "Ja"
+
+#: pages/backup.php:345
+msgid "Yes, delete it!"
+msgstr "Ja, verwijder het!"

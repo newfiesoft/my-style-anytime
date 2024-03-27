@@ -2,14 +2,14 @@
 Contributors: NewfieSoft
 Donate link: https://newfiesoft.com/donate
 Tags: css, custom, responsive, customize, style
-Requires at least: 4.9.0
-Tested up to: 6.4.3
-Stable tag: 1.4.1
-Requires PHP:  5.2.4
+Requires at least: 5.6.0
+Tested up to: 6.5
+Stable tag: 1.5.0
+Requires PHP:  5.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Short Description: Customize public frontend or admin backend wp-admin with responsive using the same CSS stylesheets file based on user roles type
+Customize public frontend or admin backend wp-admin with responsive using the same CSS stylesheets file based on user roles type
 
 == Description ==
 
@@ -34,7 +34,7 @@ The simplicity of using one CSS file for both frontend and backend eliminates re
 * Remove "WordPress" from the title on any case scenario and on all available Site languages inside WordPress settings.
 
 
-To test our plugin with different user roles and [WordPress](https://wordpress.org/documentation/article/roles-and-capabilities/#roles) basic user types, we've integrated it seamlessly with independent and widely-used WordPress plugins, each having its set of user roles. Currently, our plugin supports popular plugins like [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), and [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/).
+To test our plugin with different user roles and [WordPress](https://wordpress.org/documentation/article/roles-and-capabilities/#roles) basic user types, we've integrated it seamlessly with independent and widely-used WordPress plugins, each having its set of user roles. For any new features and coming versions of the plugin before release, we test with the next popular plugins like those is [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and [WP Job Manager](https://wordpress.org/plugins/wp-job-manager/).
 
 
 If you have any suggestions for additional plugins or want to discuss compatibility with a specific plugin, please share your thoughts in our [support topic](https://wordpress.org/support/topic/suggest-a-plugin-that-adds-his-role-inside-users/). We welcome your input and are eager to ensure compatibility with a wide range of plugins.
@@ -112,6 +112,16 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 
 == Changelog ==
+
+= 1.5.0 - 28.03.2024 =
+* <strong>We</strong> completely support the new version of WordPress 6.5
+
+* <strong>We:</strong> restore the sweetalert2 file from the last version to version 11.4.8
+
+* Reorganized <strong>readme.txt</strong> content file
+
+* <strong>Testing:</strong> In this version, we testing the plugin [WP Job Manager](https://wordpress.org/plugins/wp-job-manager/) and its user roles.
+
 
 = 1.4.1 - 23.02.2024 =
 * Reorganized <strong>readme.txt</strong> file, optimized content for all available localization language support at this moment, description, and tags
@@ -210,6 +220,9 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 
 == Upgrade Notice ==
+
+= 1.5.0 - 28.03.2024 =
+<strong>We</strong> completely support the new version 6.5, optimized code and content files, and testing other plugins
 
 = 1.4.1 - 23.02.2024 =
 <strong>We</strong> optimized content, localization, description, and tags and fixed some lines
