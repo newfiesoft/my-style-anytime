@@ -157,11 +157,15 @@
 }
 
 .page_mysat_security_page .form-table th[scope="row"], .page_mysat_custom_page .form-table th[scope="row"], .page_mysat_settings_page .form-table th[scope="row"] {
-    width: 300px !important;
+    width: 500px !important;
     position: absolute;
     margin: 15px 0 0 20px !important;
     font-weight: bold;
     vertical-align: middle;
+}
+
+#mysat-customization-form .form-table th {
+    width: 250px;
 }
 
 /*### Buttons styles ###*/

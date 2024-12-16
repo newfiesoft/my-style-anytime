@@ -1,0 +1,524 @@
+# Copyright (C) 2023 NewfieSoft
+# This file is distributed under the same license as the My Style Anytime plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Style Anytime\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-style-"
+"anytime/\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-18 01:56+0000\n"
+"PO-Revision-Date: 2024-12-16 13:28+0000\n"
+"X-Domain: my-style-anytime\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#: pages/backup.php:341
+msgid "After deleting you are not able to revert this file!"
+msgstr "Dopo l'eliminazione non è possibile ripristinare questo file!"
+
+#: pages/customization.php:139 pages/security.php:60 pages/settings.php:85
+msgid "Are you sure you want to save changes?"
+msgstr "Sei sicuro di voler salvare le modifiche?"
+
+#: pages/backup.php:340
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: pages/general.php:34
+msgid ""
+"As you read before installing and activating this plugin with him, you can "
+"create a custom CSS view using user roles."
+msgstr ""
+"Come hai letto prima di installare e attivare questo plugin con lui, puoi "
+"creare una visualizzazione CSS personalizzata utilizzando i ruoli utente."
+
+#: my-style-anytime.php:200
+msgid "Backup"
+msgstr "Backup"
+
+#: pages/backup.php:281
+msgid "Backup / Restore"
+msgstr "Ripristinare il backup"
+
+#: pages/backup.php:289
+msgid "Backup Styles"
+msgstr "Stili di backup"
+
+#: pages/backup.php:41
+msgid "Backup Successful"
+msgstr "Backup riuscito"
+
+#: pages/backup.php:347 pages/customization.php:145 pages/security.php:66
+#: pages/settings.php:91
+msgid "Cancel"
+msgstr "Annulla"
+
+#: pages/editor.php:101
+msgid "Code Editor"
+msgstr "Editore di codice"
+
+#: my-style-anytime.php:246
+msgid "Community Support"
+msgstr "Supporto comunitario"
+
+#: pages/customization.php:96
+msgid "Custom Background Color"
+msgstr "Colore di sfondo personalizzato"
+
+#: pages/customization.php:77 pages/customization.php:82
+msgid "Custom Background Image"
+msgstr "Immagine di sfondo personalizzata"
+
+#: pages/customization.php:119
+msgid "Custom CSS Style"
+msgstr "Stile CSS personalizzato"
+
+#: pages/customization.php:58 pages/customization.php:63
+msgid "Custom Login Logo"
+msgstr "Logo di accesso personalizzato"
+
+#: pages/customization.php:112
+msgid "Custom Login Title"
+msgstr "Titolo di accesso personalizzato"
+
+#: pages/customization.php:105
+msgid "Custom Login URL"
+msgstr "URL di accesso personalizzato"
+
+#: my-style-anytime.php:173 pages/customization.php:47
+msgid "Customization"
+msgstr "Personalizzazione"
+
+#. Description of the plugin
+msgid ""
+"Customize public frontend or admin backend wp-admin with responsive using "
+"the same CSS stylesheets file based on user roles type"
+msgstr ""
+"Personalizza il frontend pubblico o il backend di amministrazione wp-admin "
+"con responsivo utilizzando lo stesso file di fogli di stile CSS in base al "
+"tipo di ruoli utente"
+
+#: pages/backup.php:321
+msgid "Delete"
+msgstr "Eliminare"
+
+#: pages/backup.php:107
+msgid "Delete Failed"
+msgstr "Eliminazione non riuscita"
+
+#: pages/backup.php:95
+msgid "Delete Successful"
+msgstr "Eliminazione riuscita"
+
+#: pages/settings.php:19
+msgid "Disable Gutenberg Editor"
+msgstr "Disabilita l'editor Gutenberg"
+
+#: pages/general.php:52
+msgid "donation"
+msgstr "donazione"
+
+#: pages/general.php:56
+msgid "Enjoy your work"
+msgstr "Buon lavoro"
+
+#: pages/editor.php:322
+msgid "Error"
+msgstr "Errore"
+
+#: pages/editor.php:323
+msgid "Error updating file: "
+msgstr "Errore durante l'aggiornamento del file: "
+
+#: pages/backup.php:49
+msgid "Failed to create a backup."
+msgstr "Impossibile creare un backup."
+
+#: pages/backup.php:108
+msgid "Failed to delete backup file."
+msgstr "Impossibile eliminare il file di backup."
+
+#: pages/backup.php:74
+msgid "Failed to restore styles."
+msgstr "Impossibile ripristinare gli stili."
+
+#: my-style-anytime.php:247 pages/general.php:46
+msgid "FAQ"
+msgstr "FAQ"
+
+#: pages/general.php:45
+msgid "For help, you have our "
+msgstr "Per aiuto, hai il nostro"
+
+#: pages/settings.php:136
+msgid ""
+"From the website title displayed in a browser tab and dashboard, and wp-"
+"login.php for enhanced branding and security."
+msgstr ""
+"Dal titolo del sito web visualizzato in una scheda e dashboard del browser e "
+"wp-login.php per branding e sicurezza migliorati."
+
+#: my-style-anytime.php:155 my-style-anytime.php:218
+msgid "General"
+msgstr "Generale"
+
+#: pages/editor.php:147
+msgid "Generate CSS File for"
+msgstr "Genera file CSS per"
+
+#: pages/editor.php:170
+msgid "Generate Visitor CSS File"
+msgstr "Genera file CSS dei visitatori"
+
+#: pages/backup.php:283
+msgid ""
+"Here you can create a backup anytime for all styles that you create and "
+"restore, all archive files have been storage inside"
+msgstr ""
+"Qui puoi creare un backup in qualsiasi momento per tutti gli stili che crei "
+"e ripristini, tutti i file di archivio sono stati archiviati all'interno"
+
+#: pages/general.php:32
+msgid "Hi,"
+msgstr "Ciao,"
+
+#. URI of the plugin
+msgid "https://newfiesoft.com/wp-plugins/my-style-anytime/"
+msgstr "https://newfiesoft.com/wp-plugins/my-style-anytime/"
+
+#. Author URI of the plugin
+msgid "https://www.newfiesoft.com"
+msgstr "https://www.newfiesoft.com"
+
+#: pages/general.php:35
+msgid ""
+"If you like this plugin it would be nice from your side to give us your "
+"rating and feedback."
+msgstr ""
+"Se ti piace questo plugin, sarebbe carino da parte tua fornirci la tua "
+"valutazione e il tuo feedback."
+
+#: pages/customization.php:120
+msgid ""
+"If you want to additionally customize with css file you can use which is "
+"located in."
+msgstr ""
+"Se vuoi personalizzare ulteriormente con un file css puoi usare quello che "
+"si trova in."
+
+#. FontAwesome heart icon
+#: my-style-anytime.php:296
+msgid "in Zürich, Switzerland"
+msgstr "a Zurigo, Svizzera"
+
+#: pages/backup.php:303
+msgid "List Backup zip files"
+msgstr "Elenca i file zip di backup"
+
+#: my-style-anytime.php:164
+msgid "Manage Style"
+msgstr "Gestisci lo stile"
+
+#. Name of the plugin
+#: my-style-anytime.php:144
+msgid "My Style Anytime"
+msgstr "My Style Anytime"
+
+#. Author of the plugin
+msgid "NewfieSoft"
+msgstr "NewfieSoft"
+
+#: pages/backup.php:43 pages/backup.php:67 pages/backup.php:75
+#: pages/backup.php:97 pages/backup.php:109 pages/customization.php:165
+#: pages/editor.php:311 pages/editor.php:324
+msgid "OK"
+msgstr "OK"
+
+#: pages/general.php:47
+msgid "part, or if that does not help you can write your question in the"
+msgstr "parte, o se ciò non ti aiuta puoi scrivere la tua domanda nel"
+
+#: my-style-anytime.php:292
+msgid "Premium Tools for WordPress made by"
+msgstr "Strumenti Premium per WordPress realizzati da"
+
+#: my-style-anytime.php:248
+msgid "Ratings"
+msgstr "Giudizi"
+
+#: pages/settings.php:41
+msgid "Remove \"category\" slug from category URLs"
+msgstr "Rimuovi lo slug \"category\" dagli URL delle categorie"
+
+#: pages/customization.php:88
+msgid "Remove Background Image"
+msgstr "Rimuovi immagine di sfondo"
+
+#: pages/customization.php:69
+msgid "Remove Logo"
+msgstr "Rimuovi logo"
+
+#: pages/security.php:18
+msgid "Remove meta generator"
+msgstr "Rimuovi il metageneratore"
+
+#: pages/settings.php:30
+msgid "Remove WordPress from the title"
+msgstr "Rimuovi WordPress dal titolo"
+
+#: pages/security.php:101
+msgid ""
+"Removing the meta generator helps hide the WordPress version from potential "
+"attackers."
+msgstr ""
+"La rimozione del generatore di metadati aiuta a nascondere la versione di "
+"WordPress da potenziali aggressori."
+
+#: pages/backup.php:73
+msgid "Restore Failed"
+msgstr "Ripristino non riuscito"
+
+#: pages/backup.php:314
+msgid "Restore Styles"
+msgstr "Ripristina stili"
+
+#: pages/backup.php:65
+msgid "Restore Successful"
+msgstr "Ripristino riuscito"
+
+#: pages/customization.php:125 pages/security.php:44 pages/settings.php:69
+msgid "Save"
+msgstr "Salva"
+
+#: pages/editor.php:197
+msgid "Save Changes"
+msgstr "Salvare le modifiche"
+
+#: pages/customization.php:138 pages/security.php:59 pages/settings.php:84
+msgid "Save Changes?"
+msgstr "Salvare le modifiche?"
+
+#: my-style-anytime.php:182 pages/security.php:38
+msgid "Security"
+msgstr "Sicurezza"
+
+#: pages/customization.php:99
+msgid "Select a background color for the login page."
+msgstr "Seleziona un colore di sfondo per la pagina di accesso."
+
+#: pages/editor.php:103
+msgid ""
+"Select below the CSS file who want to edit, and after complete just click on "
+"the button to submit the change."
+msgstr ""
+"Seleziona sotto il file CSS che desideri modificare e, una volta completato, "
+"fai semplicemente clic sul pulsante per inviare la modifica."
+
+#: pages/customization.php:115
+msgid "Set the title tooltip for the login logo."
+msgstr "Imposta il tooltip del titolo per il logo di accesso."
+
+#: pages/customization.php:108
+msgid "Set the URL the login logo should link to."
+msgstr "Imposta l'URL a cui deve rimandare il logo di accesso."
+
+#: my-style-anytime.php:191 pages/settings.php:62
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: pages/customization.php:164 pages/security.php:84 pages/settings.php:109
+msgid "Settings saved successfully."
+msgstr "Impostazioni salvate correttamente."
+
+#: pages/backup.php:42
+msgid "Styles successfully backed up."
+msgstr "Backup degli stili riuscito."
+
+#: pages/backup.php:66
+msgid "Styles successfully restored."
+msgstr "Stili ripristinati con successo."
+
+#: pages/customization.php:163 pages/editor.php:309 pages/security.php:83
+#: pages/settings.php:108
+msgid "Success"
+msgstr "Successo"
+
+#: pages/general.php:48
+msgid "support sections"
+msgstr "sezioni di supporto"
+
+#: pages/backup.php:96
+msgid "The backup file was successfully deleted."
+msgstr "Il file di backup è stato eliminato con successo."
+
+#: pages/editor.php:47
+msgid ""
+"The CSS file was not found because it does not exist, you can generate it by "
+"clicking on the paint roller icon."
+msgstr ""
+"Il file CSS non è stato trovato perché non esiste, puoi generarlo cliccando "
+"sull'icona del rullo di vernice."
+
+#: pages/editor.php:310
+msgid "The file was updated successfully!"
+msgstr "Il file è stato aggiornato con successo!"
+
+#: pages/customization.php:86
+msgid "Upload Background Image"
+msgstr "Carica immagine di sfondo"
+
+#: pages/customization.php:67
+msgid "Upload Logo"
+msgstr "Carica il logo"
+
+#: pages/customization.php:91
+msgid ""
+"Upload or select an image from the Media Library to use as your custom login "
+"background."
+msgstr ""
+"Carica o seleziona un'immagine dalla Libreria multimediale da utilizzare "
+"come sfondo personalizzato per l'accesso."
+
+#: pages/customization.php:72
+msgid ""
+"Upload or select an image from the Media Library to use as your custom login "
+"logo."
+msgstr ""
+"Carica o seleziona un'immagine dalla Libreria multimediale da utilizzare "
+"come logo di accesso personalizzato."
+
+#: my-style-anytime.php:302
+msgid "Version"
+msgstr "Versione"
+
+#: pages/editor.php:167 pages/editor.php:179
+msgid "Visitor Style"
+msgstr "Stile del visitatore"
+
+#: pages/general.php:33
+msgid "We are honored that you decided to use our plugin."
+msgstr "Siamo onorati che tu abbia deciso di utilizzare il nostro plugin."
+
+#: pages/general.php:51
+msgid ""
+"We would be very pleased if you supported the advancement of this plugin "
+"with your "
+msgstr ""
+"Saremmo molto lieti se supportassi lo sviluppo di questo plugin con il tuo"
+
+#: pages/general.php:30
+msgid "Welcome"
+msgstr "Benvenuta"
+
+#: pages/settings.php:146
+msgid "When enabled, the \"/category/\" slug is removed from category URLs."
+msgstr ""
+"Se abilitata, lo slug \"/category/\" viene rimosso dagli URL delle categorie."
+
+#: my-style-anytime.php:294
+msgid "with"
+msgstr "con"
+
+#: pages/settings.php:126
+msgid ""
+"With this, you Disable Gutenberg on your site and back to the classic editor,"
+" no matter where you are."
+msgstr ""
+"Con questo, disabiliti Gutenberg sul tuo sito e torni all'editor classico, "
+"non importa dove ti trovi."
+
+#: includes/functions_settings.php:30
+msgid "WordPress"
+msgstr "WordPress"
+
+#: pages/customization.php:144 pages/security.php:65 pages/settings.php:90
+msgid "Yes"
+msgstr "SÌ"
+
+#: pages/backup.php:346
+msgid "Yes, delete it!"
+msgstr "Sì, cancellalo!"
+
+#. Sindhi
+#: includes/functions_settings.php:47
+msgid "Вордпрес"
+msgstr "Вордпрес"
+
+#. Gujarati
+#: includes/functions_settings.php:38
+msgid "וורדפרס"
+msgstr "וורדפרס"
+
+#. Persian (Afghanistan)
+#: includes/functions_settings.php:36
+msgid "وردپرس"
+msgstr "وردپرس"
+
+#. Kurdish
+#: includes/functions_settings.php:35
+msgid "وردپرس ورود"
+msgstr "وردپرس ورود"
+
+#. Nepali
+#: includes/functions_settings.php:45
+msgid "ورڈپریس"
+msgstr "ورڈپریس"
+
+#. Saraiki
+#: includes/functions_settings.php:46
+msgid "ورڊپريس"
+msgstr "ورڊپريس"
+
+#. Amharic
+#: includes/functions_settings.php:32
+msgid "ووردبريس"
+msgstr "ووردبريس"
+
+#. Bengali
+#: includes/functions_settings.php:34
+msgid "وۆردپرێس"
+msgstr "وۆردپرێس"
+
+#. Hebrew
+#. Korean
+#. Malayalam
+#: includes/functions_settings.php:39 includes/functions_settings.php:42
+#: includes/functions_settings.php:44
+msgid "वर्डप्रेस"
+msgstr "वर्डप्रेस"
+
+#. Arabic
+#: includes/functions_settings.php:33
+msgid "ওয়ার্ডপ্রেস"
+msgstr "ওয়ার্ডপ্রেস"
+
+#. Persian
+#: includes/functions_settings.php:37
+msgid "વર્ડપ્રેસ"
+msgstr "વર્ડપ્રેસ"
+
+#. Hindi
+#: includes/functions_settings.php:40
+msgid "ವರ್ಡ್ಪ್ರೆಸ್"
+msgstr "ವರ್ಡ್ಪ್ರೆಸ್"
+
+#. Marathi
+#: includes/functions_settings.php:43
+msgid "വേഡ്പ്രസ്സ്"
+msgstr "വേഡ്പ്രസ്സ്"
+
+#. English
+#: includes/functions_settings.php:31
+msgid "ወርድፕረስ"
+msgstr "ወርድፕረስ"
+
+#. Kannada
+#: includes/functions_settings.php:41
+msgid "워드프레스"
+msgstr "워드프레스"

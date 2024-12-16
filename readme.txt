@@ -3,8 +3,8 @@ Contributors: NewfieSoft
 Donate link: https://newfiesoft.com/donate
 Tags: css, custom, responsive, customize, style
 Requires at least: 5.6.0
-Tested up to: 6.5
-Stable tag: 1.5.0
+Tested up to: 6.7
+Stable tag: 1.6.0
 Requires PHP:  5.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,9 @@ The simplicity of using one CSS file for both frontend and backend eliminates re
 * Disable Gutenberg style
 * Disable the meta generator.
 * Remove "WordPress" from the title on any case scenario and on all available Site languages inside WordPress settings.
+* Remove "category" slug from category URLs.
+* <strong>Customization login page, set Custom Login Logo, Background Image, or Background Color.</strong>
+
 
 
 To test our plugin with different user roles and [WordPress](https://wordpress.org/documentation/article/roles-and-capabilities/#roles) basic user types, we've integrated it seamlessly with independent and widely-used WordPress plugins, each having its set of user roles. For any new features and coming versions of the plugin before release, we test with the next popular plugins like those is [WooCommerce](https://wordpress.org/plugins/woocommerce/), [Loco Translate](https://wordpress.org/plugins/loco-translate/), [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/), [YITH WooCommerce Affiliates](https://wordpress.org/plugins/yith-woocommerce-affiliates/), and [WP Job Manager](https://wordpress.org/plugins/wp-job-manager/).
@@ -45,22 +48,23 @@ If you have any suggestions for additional plugins or want to discuss compatibil
 1. Welcome screen
 2. Manage Style page where you can see all available styles and their status and who can be Editing
 3. Code Editor where you can manage and customize your style independent of user role type
-4. Customization page and his configuration options like Remove 100% WordPress from the title
+4. Customization login page, set Custom Login Logo, Background Image, or Background Color.
 5. Security page and his Information and configuration options
-6. Settings page where you can enable additional useful functions
+6. Settings page where you can enable additional useful functions, like the option to Remove 100% WordPress title
 7. Backup / Restore page so now you can on click create Backup for all your styles and restore anytime.
-8. Administrator custom style view
-9. Editor custom style view
-10. Author custom style view
-11. Contributor custom style view
-12. Subscriber custom style view
-13. Visitor custom style view
-14. WooCommerce Shop Manager custom style view
-15. WooCommerce Customer custom style view
-16. Loco Translate custom style view
-17. Yoast SEO Manager custom style view
-18. Yoast SEO Editor custom style view
-19. YITH WooCommerce Affiliates custom style view
+8. This is how it look when setting a custom logo and custom background image.
+9. Administrator custom style view
+10. Editor custom style view
+11. Author custom style view
+12. Contributor custom style view
+13. Subscriber custom style view
+14. Visitor custom style view
+15. WooCommerce Shop Manager custom style view
+16. WooCommerce Customer custom style view
+17. Loco Translate custom style view
+18. Yoast SEO Manager custom style view
+19. Yoast SEO Editor custom style view
+20. YITH WooCommerce Affiliates custom style view
 
 
 == Installation ==
@@ -112,6 +116,20 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 
 == Changelog ==
+
+= 1.6.0 - 16.12.2024 =
+* <strong>We</strong> completely support the new version of WordPress 6.7
+
+* <strong>We</strong> optimized the code and functions for the new version of WordPress.
+
+* <strong>We</strong> completely implemented Success saved successfully, what we missed.
+
+* <strong>We</strong> created a new functionality where now you can set Custom Login Logo, Background Image, or Background Color. Set the URL the login logo should link to, and set the title tooltip for the login logo. 🥂🥳🎉
+
+* <strong>Add</strong> the Latest stable version [Font Awesome | Free Icons ](https://fontawesome.com/) v6.7.1 Released: in November 2024
+
+* <strong>Add</strong> option on the Settings page on click to Remove Category in URL
+
 
 = 1.5.0 - 28.03.2024 =
 * <strong>We</strong> completely support the new version of WordPress 6.5
@@ -220,6 +238,9 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 
 == Upgrade Notice ==
+
+= 1.6.0 - 16.12.2024 =
+<strong>We</strong> completely support the new version of WordPress 6.7, optimized code and content files, and created new functionality.
 
 = 1.5.0 - 28.03.2024 =
 <strong>We</strong> completely support the new version 6.5, optimized code and content files, and testing other plugins
