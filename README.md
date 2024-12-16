@@ -22,9 +22,11 @@ To test our plugin with different user roles and [WordPress](https://wordpress.o
 - Disable Gutenberg style
 - Disable the meta generator.
 - Remove "WordPress" from the title on any case scenario and on all available Site Language inside WordPress settings.
+- Remove "category" slug from category URLs.
+- <strong>Customization login page, set Custom Login Logo, Background Image, or Background Color.</strong>
 
 ## Screenshot
-<p><a href="https://wordpress.org/plugins/my-style-anytime/"><img src="https://ps.w.org/my-style-anytime/assets/screenshot-3.png" alt="My Style Anytime"></a></p>
+<p><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-1.png" alt="My Style Anytime"></a><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-2.png" alt="My Style Anytime"></a><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-3.png" alt="My Style Anytime"></a><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-4.png" alt="My Style Anytime"></a><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-5.png" alt="My Style Anytime"></a><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-6.png" alt="My Style Anytime"></a><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-7.png" alt="My Style Anytime"></a><a href="https://wordpress.org/plugins/my-style-anytime/"><img width="500" height="250" src="https://ps.w.org/my-style-anytime/assets/screenshot-8.png" alt="My Style Anytime"></a></p>
 
 ## Be a Community contributions
 We are always welcome and help us to work together, feel free to answer questions on GitHub and within the communities.
