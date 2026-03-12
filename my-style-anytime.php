@@ -6,7 +6,7 @@ Plugin URI: https://newfiesoft.com/wp-plugins/my-style-anytime/
 
 Description: Customize public frontend or admin backend wp-admin with responsive using the same CSS stylesheets file based on user roles type
 
-Version: 1.6.0
+Version: 1.7.0
 Author: NewfieSoft
 Author URI: https://www.newfiesoft.com
 Donate link: https://newfiesoft.com/donate
@@ -25,38 +25,38 @@ if ( ! function_exists( 'is_plugin_active' ) ) {
 }
 
 /// Get plugin dirname basename how can just call this short in all current and future functions
-if (!function_exists('my_style_anytime_directory_name')) {
-	function my_style_anytime_directory_name(): string {
+if (!function_exists('mysat_my_style_anytime_directory_name')) {
+	function mysat_my_style_anytime_directory_name(): string {
 		return dirname(plugin_basename(__FILE__));
 	}
 }
 
 /// Get plugin basename how can just call this short in all current and future functions
-if (!function_exists('my_style_anytime_directory')) {
-	function my_style_anytime_directory(): string {
+if (!function_exists('mysat_my_style_anytime_directory')) {
+	function mysat_my_style_anytime_directory(): string {
 		return plugin_basename(__FILE__);
 	}
 }
 
 /// Get plugin dir path how can just call this short in all current and future functions
-if (!function_exists('my_style_anytime_plugin_dir_path')) {
-	function my_style_anytime_plugin_dir_path(): string {
+if (!function_exists('mysat_my_style_anytime_plugin_dir_path')) {
+	function mysat_my_style_anytime_plugin_dir_path(): string {
 		return plugin_dir_path( __FILE__ );
 	}
 }
 
 /// Get plugin dir url name how can just call this short in all current and future functions
-if (!function_exists('my_style_anytime_directory_url')) {
-	function my_style_anytime_directory_url(): string {
+if (!function_exists('mysat_my_style_anytime_directory_url')) {
+	function mysat_my_style_anytime_directory_url(): string {
 		return plugin_dir_url(__FILE__);
 	}
 }
 
 /// Get plugin data how can just call this short in all current and future functions
-if (!function_exists('my_style_anytime_plugin_data')) {
-	function my_style_anytime_plugin_data(): array {
+if (!function_exists('mysat_my_style_anytime_plugin_data')) {
+	function mysat_my_style_anytime_plugin_data(): array {
 
-		$plugin_main_file = my_style_anytime_plugin_dir_path() . 'my-style-anytime.php';
+		$plugin_main_file = mysat_my_style_anytime_plugin_dir_path() . 'my-style-anytime.php';
 
 		return get_plugin_data($plugin_main_file);
 	}
@@ -71,14 +71,14 @@ function mysat_plugin_initialize(): void {
 
 	// Retrieve plugin data now that the text domain is loaded (admin only)
 	if (is_admin()) {
-		$plugin_plugin_data = my_style_anytime_plugin_data();
+		$plugin_plugin_data = mysat_my_style_anytime_plugin_data();
 	}
 
 	// Retrieve common plugin variables
-	$plugin_dirname = my_style_anytime_directory_name();
-	$plugin_basename = my_style_anytime_directory();
-	$plugin_dir_path = my_style_anytime_plugin_dir_path();
-	$plugin_dir_url = my_style_anytime_directory_url();
+	$plugin_dirname = mysat_my_style_anytime_directory_name();
+	$plugin_basename = mysat_my_style_anytime_directory();
+	$plugin_dir_path = mysat_my_style_anytime_plugin_dir_path();
+	$plugin_dir_url = mysat_my_style_anytime_directory_url();
 
 	//// Load functions on both admin and front-end
 	$common_function_files = glob($plugin_dir_path . "includes/functions_*.php");
@@ -126,14 +126,9 @@ function mysat_plugin_initialize(): void {
 add_action('init', 'mysat_plugin_initialize', 20);
 
 
-/// Load plugin Text Domain for multi-language support
-function mmysat_plugin_load_text_domain(): void {
-
-	// Load the plugin text domain
-	load_plugin_textdomain('my-style-anytime', false, my_style_anytime_directory_name() . '/languages');
-}
-
-add_action('init', 'mmysat_plugin_load_text_domain', 1);
+/// Note: load_plugin_textdomain() is no longer needed for WordPress.org hosted plugins since WP 4.6
+/// WordPress automatically loads translations from translate.wordpress.org for approved plugins
+/// The /languages directory is kept for local development and custom translations
 
 
 /// This configures menu name and sub names.
@@ -145,7 +140,7 @@ function mysat_active_admin_menu(): void {
 		'activate_plugins',
 		'my-style-anytime', // ID
 		'mysat_render_general_page',
-		'my-style-anytime', // Make sure this icon slug matches your custom icon's registration.
+		'dashicons-admin-customizer', // Use WordPress dashicon instead of invalid URL
 		999
 	);
 
@@ -226,14 +221,14 @@ function mysat_custom_link_options_plugin( $actions ): array {
 	return $actions;
 }
 
-add_filter( 'plugin_action_links_' . my_style_anytime_directory(), 'mysat_custom_link_options_plugin', 10, 2 );
+add_filter( 'plugin_action_links_' . mysat_my_style_anytime_directory(), 'mysat_custom_link_options_plugin', 10, 2 );
 
 
 /// This helps to create additional custom meta links in the sequel after "Version by ..." in the Installed Plugins list
 function mysat_custom_link_action_plugin( $links_array, $plugin_file ) {
 
 	// Get plugin basename
-	$current_plugin_basename = my_style_anytime_directory();
+	$current_plugin_basename = mysat_my_style_anytime_directory();
 
 	if ( $plugin_file === $current_plugin_basename ) {
 
@@ -265,7 +260,7 @@ add_filter( 'plugin_row_meta', 'mysat_custom_link_action_plugin', 10, 4 );
 function mysat_customize_admin_footer_script(): void {
 
 	// Get plugin data
-	$plugin_data = my_style_anytime_plugin_data();
+	$plugin_data = mysat_my_style_anytime_plugin_data();
 
 	// Check if we are on one of your plugin's pages
 	// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Enqueuing scripts based on admin page; no action performed.

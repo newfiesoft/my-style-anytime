@@ -3,9 +3,9 @@ Contributors: NewfieSoft
 Donate link: https://newfiesoft.com/donate
 Tags: css, custom, responsive, customize, style
 Requires at least: 5.6.0
-Tested up to: 6.7
-Stable tag: 1.6.0
-Requires PHP:  5.6.0
+Tested up to: 6.9
+Stable tag: 1.7.0
+Requires PHP:  7.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ Revolutionize your WordPress development with our innovative plugin role-based C
 
 This powerful tool empowers developers to create unique style combinations for each user role, ensuring a personalized experience for administrators, editors, authors, contributors, subscribers, and even visitors/guests.
 
-The simplicity of using one CSS file for both frontend and backend eliminates redundancy and enhances consistency in design. Efficiency meets flexibility as you effortlessly manage updates, bug fixes, and improvements through a centralized CSS file. Say goodbye to the hassle of duplicating efforts – our feature simplifies the development process, making it easy to maintain and adapt styles across your entire WordPress site.
+The simplicity of using one CSS file for both frontend and backend removes redundancy and enhances consistency in design. Efficiency meets flexibility as you effortlessly manage updates, bug fixes, and improvements through a centralized CSS file. Say goodbye to the hassle of duplicating efforts – our feature simplifies the development process, making it easy to maintain and adapt styles across your entire WordPress site.
 
 👉 For the latest code development, planned enhancements, and known issues, visit our [Github page](https://github.com/newfiesoft/my-style-anytime "Github"). 👈
 
@@ -117,6 +117,16 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 == Changelog ==
 
+= 1.7.0 - 12.03.2026 =
+* <strong>We</strong> completely support the new version of WordPress 6.9
+
+* <strong>We</strong> optimized the code and functions for the new version of WordPress.
+
+* <strong>Add</strong> the Latest stable version [Font Awesome | Free Icons ](https://fontawesome.com/) v7.2.0 Released: in February 2026
+
+* <strong>Fix:</strong> last part of what suggested Plugin Check (PCP) on the all section.
+
+
 = 1.6.0 - 16.12.2024 =
 * <strong>We</strong> completely support the new version of WordPress 6.7
 
@@ -154,7 +164,7 @@ But if you're using an upgrade inside the WordPress site plugin area, before doi
 
 * <strong>Add:</strong> Create a backup page so now you can on click create Backup for all your styles, and restore anytime.
 
-* <strong>Add:</strong> From this version in every subsequent one, we use [Font Awesome | Free Icons ](https://fontawesome.com/)
+* <strong>Add:</strong> From this version in every further one, we use [Font Awesome | Free Icons ](https://fontawesome.com/)
 
 * <strong>Add:</strong> From this version, any user roles css style has been checked in the background and returned status inside Manage Style. In that case, you can say do you want to create custom CSS for that user role type or not.
 

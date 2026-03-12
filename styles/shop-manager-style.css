@@ -1,0 +1,261 @@
+/**
+ * 
+ * @author: NewfieSoft
+ * @Plugin name: My Style Anytime 
+ * @URL: https://newfiesoft.com/wp-plugins/my-style-anytime/
+ * 
+ *  
+ * This is a style for roles Shop Manager
+ *
+ * @Roles: Shop Manager
+ *
+ * @Plugin: Woocommerce plugins
+ * @URL: https://wordpress.org/plugins/woocommerce/ 
+ *
+ */
+
+/* To import visitor style in this user @Roles type
+@import "visitor-style.css";
+ */
+
+/*#########################################################################*/
+
+
+/*=== Back Styles ===*/
+
+#wpadminbar {
+	background-color: #b122d9 !important;
+}
+
+
+/*#########################################################################*/
+
+
+/*=== Front Styles ===*/
+
+/* Standard WordPress User roles style example */
+
+.hello-administrator {
+	display: none;
+}
+
+.hello-editor {
+	display: none;
+}
+
+.hello-author {
+	display: none;
+}
+
+.hello-contributor {
+	display: none;
+}
+
+.hello-subscriber {
+	display: none;
+}
+
+.hello-visitor {
+	display: none;
+}
+
+/* WooCommerce User roles style example */
+
+.hello-shop-manager {
+	text-align: center;
+	font-size: 36px;
+}
+
+.hello-customer {
+	display: none;
+}
+
+/* Loco Translate User roles style example */
+
+.hello-translator {
+	display: none;
+}
+
+/* Yoast SEO User roles style example */
+
+.hello-seo-manager {
+	display: none;
+}
+
+.hello-seo-editor {
+	display: none;
+}
+
+/* YITH Affiliates User roles style example */
+
+.hello-affiliates {
+	display: none;
+}
+
+
+/*#########################################################################*/
+
+/*=== Start Responsive configurations for this roles user type ===*/
+
+/*=| ##### Desktop screen resolution ##### |=*/
+
+@media only screen and (max-width: 2560px) {
+
+
+
+								}
+/* End media max-width: 2560px */
+
+
+@media only screen and (max-width: 1920px) {
+	
+
+								}
+/* End media max-width: 1920px */
+
+
+@media only screen and (max-width: 1600px) {
+
+
+
+								}
+/* End media max-width: 1600px */
+
+
+@media only screen and (max-width: 1536px) {
+
+
+
+								}
+/* End media max-width: 1536px */
+
+
+@media only screen and (max-width: 1440px) {
+
+
+
+								}
+/* End media max-width: 1440px */
+
+
+@media only screen and (max-width: 1366px) {
+
+
+
+								}
+/* End media max-width: 1366px */
+
+
+@media only screen and (max-width: 1280px) {
+
+
+
+								}
+/* End media max-width: 1280px */
+
+
+@media only screen and (max-width: 1080px) {
+
+
+
+								}
+/* End media max-width: 1080px */
+
+
+/*=| ##### Tablet screen resolution ##### |=*/
+
+
+@media only screen and (max-width: 962px) {
+
+
+
+								}
+/* End media max-width: 962px */
+
+
+@media screen and (max-width: 820px) {
+
+
+
+								}
+/* End media max-width: 820px */
+
+
+@media only screen and (max-width: 810px) { 
+
+
+
+								}
+/* End media max-width: 810px */
+
+
+@media only screen and (max-width: 800px) { 
+
+
+
+								}
+/* End media max-width: 800px */
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+								}
+/* End media max-width: 768px */
+
+
+@media only screen and (max-width: 601px) { 
+
+
+
+								}
+/* End media max-width: 601px */
+
+
+/*=| ##### Mobile screen resolution ##### |=*/
+
+
+@media only screen and (max-width: 414px) { 
+
+
+
+								}
+/* End media max-width: 414px */
+
+
+@media only screen and (max-width: 412px) { 
+
+
+
+								}
+/* End media max-width: 412px */
+
+
+@media only screen and (max-width: 393px) { 
+
+
+
+								}
+/* End media max-width: 393px */
+
+
+@media only screen and (max-width: 390px) { 
+
+
+
+								}
+/* End media max-width: 390px */
+
+
+@media only screen and (max-width: 360px) { 
+
+
+
+								}
+/* End media max-width: 390px */
+
+
+/*=== End Responsive configurations for this roles user type ===*/
+
+/*#########################################################################*/
